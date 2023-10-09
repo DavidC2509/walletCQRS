@@ -26,6 +26,7 @@ namespace Template.Domain.ClassifiersAggregate
 
         public void AddMovementDefault()
         {
+            CategoryMovement.Add(new CategoryMovementGlobal("Transferencia"));
             CategoryMovement.Add(new CategoryMovementGlobal("Alimentación"));
             CategoryMovement.Add(new CategoryMovementGlobal("Transporte"));
             CategoryMovement.Add(new CategoryMovementGlobal("Mantenimiento"));

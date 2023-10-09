@@ -1,5 +1,8 @@
 public enum TypeMovement
 {
     Income,
-    Exit
+    Exit,
+    IncomeTransfer,
+    ExitTransfer
+
 }

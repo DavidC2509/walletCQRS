@@ -68,7 +68,7 @@ namespace Template.Domain.AccountAggregate
         public void AddMovement(CategoryMovement categoryMovement, TypeMovement typeMovement,
         double amount, string descripcion, DateTime date)
         {
-            if (typeMovement == TypeMovement.Exit)
+            if (typeMovement == TypeMovement.Exit && typeMovement == TypeMovement.ExitTransfer)
             {
                 if (Salary < amount) throw new InvalidOperationException("No tiene Salario suficiente para la salidad");
             }
@@ -81,11 +81,11 @@ namespace Template.Domain.AccountAggregate
 
             if (movement.TypeMovement == TypeMovement.Income)
             {
-                ValidateUpdateTypeIncome(movement,amount);
+                ValidateUpdateTypeIncome(movement, amount);
             }
             else
             {
-                ValidateUpdateTypeExit(movement,amount);
+                ValidateUpdateTypeExit(movement, amount);
             }
             movement?.UpdateMovement(amount, descripcion, date);
         }
@@ -123,7 +123,7 @@ namespace Template.Domain.AccountAggregate
         }
 
 
-      
+
         public void UpdateAccount(string name, CategoryAccount categoryAccount)
         {
             Name = name;

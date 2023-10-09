@@ -11,13 +11,28 @@ namespace Template.Domain.MovementAggregate
     {
 
         public string DataKey { get; set; }
+        public string NameAccountOrigin { get; set; }
         public Guid MovementOriginId { get; set; }
+
+        public string NameAccountDestiny { get; set; }
         public Guid MovementDestitnyId { get; set; }
         public double Amount { get; set; }
 
         public MovementTransfer()
         {
             DataKey = string.Empty;
+            NameAccountDestiny = string.Empty;
+            NameAccountOrigin = string.Empty;
+        }
+
+        public MovementTransfer(Guid movementOriginId, string nameAccountOrigin, Guid MovementDestinyId, string nameAccountDestiny, double amount)
+        {
+            DataKey = string.Empty;
+            NameAccountDestiny = nameAccountDestiny;
+            NameAccountOrigin = nameAccountOrigin;
+            MovementOriginId = movementOriginId;
+            MovementDestitnyId = MovementDestinyId;
+            Amount = amount;
         }
 
         public IReadOnlyCollection<INotification> DomainEvents => _domainEvents.AsReadOnly();
