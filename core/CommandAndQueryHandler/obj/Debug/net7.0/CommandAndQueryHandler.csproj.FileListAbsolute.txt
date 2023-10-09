@@ -28,18 +28,3 @@ D:/david/Taller/Programacion/Programacion/core/CommandAndQueryHandler/obj/Debug/
 D:/david/Taller/Programacion/Programacion/core/CommandAndQueryHandler/obj/Debug/net7.0/refint/Core.CommandAndQueryHandler.dll
 D:/david/Taller/Programacion/Programacion/core/CommandAndQueryHandler/obj/Debug/net7.0/Core.CommandAndQueryHandler.pdb
 D:/david/Taller/Programacion/Programacion/core/CommandAndQueryHandler/obj/Debug/net7.0/ref/Core.CommandAndQueryHandler.dll
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\bin\Debug\net7.0\Core.CommandAndQueryHandler.deps.json
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\bin\Debug\net7.0\Core.CommandAndQueryHandler.dll
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\bin\Debug\net7.0\Core.CommandAndQueryHandler.pdb
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\bin\Debug\net7.0\Core.Domain.dll
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\bin\Debug\net7.0\Core.Domain.pdb
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\obj\Debug\net7.0\CommandAndQueryHandler.csproj.AssemblyReference.cache
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\obj\Debug\net7.0\CommandAndQueryHandler.GeneratedMSBuildEditorConfig.editorconfig
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\obj\Debug\net7.0\CommandAndQueryHandler.AssemblyInfoInputs.cache
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\obj\Debug\net7.0\CommandAndQueryHandler.AssemblyInfo.cs
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\obj\Debug\net7.0\CommandAndQueryHandler.csproj.CoreCompileInputs.cache
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\obj\Debug\net7.0\CommandAndQueryHandler.csproj.CopyComplete
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\obj\Debug\net7.0\Core.CommandAndQueryHandler.dll
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\obj\Debug\net7.0\refint\Core.CommandAndQueryHandler.dll
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\obj\Debug\net7.0\Core.CommandAndQueryHandler.pdb
-D:\david\Taller\Progra2\Programacion (1)\core\CommandAndQueryHandler\obj\Debug\net7.0\ref\Core.CommandAndQueryHandler.dll
