@@ -1,0 +1,57 @@
+D:/david/TemplateProyect/Template/src/Template/Command/bin/Debug/net7.0/Template.Command.deps.json
+D:/david/TemplateProyect/Template/src/Template/Command/bin/Debug/net7.0/Template.Command.dll
+D:/david/TemplateProyect/Template/src/Template/Command/bin/Debug/net7.0/Template.Command.pdb
+D:/david/TemplateProyect/Template/src/Template/Command/bin/Debug/net7.0/Core.CommandAndQueryHandler.dll
+D:/david/TemplateProyect/Template/src/Template/Command/bin/Debug/net7.0/Core.Domain.dll
+D:/david/TemplateProyect/Template/src/Template/Command/bin/Debug/net7.0/Template.Domain.dll
+D:/david/TemplateProyect/Template/src/Template/Command/bin/Debug/net7.0/Core.CommandAndQueryHandler.pdb
+D:/david/TemplateProyect/Template/src/Template/Command/bin/Debug/net7.0/Template.Domain.pdb
+D:/david/TemplateProyect/Template/src/Template/Command/bin/Debug/net7.0/Core.Domain.pdb
+D:/david/TemplateProyect/Template/src/Template/Command/obj/Debug/net7.0/Command.csproj.AssemblyReference.cache
+D:/david/TemplateProyect/Template/src/Template/Command/obj/Debug/net7.0/Command.GeneratedMSBuildEditorConfig.editorconfig
+D:/david/TemplateProyect/Template/src/Template/Command/obj/Debug/net7.0/Command.AssemblyInfoInputs.cache
+D:/david/TemplateProyect/Template/src/Template/Command/obj/Debug/net7.0/Command.AssemblyInfo.cs
+D:/david/TemplateProyect/Template/src/Template/Command/obj/Debug/net7.0/Command.csproj.CoreCompileInputs.cache
+D:/david/TemplateProyect/Template/src/Template/Command/obj/Debug/net7.0/Command.csproj.CopyComplete
+D:/david/TemplateProyect/Template/src/Template/Command/obj/Debug/net7.0/Template.Command.dll
+D:/david/TemplateProyect/Template/src/Template/Command/obj/Debug/net7.0/refint/Template.Command.dll
+D:/david/TemplateProyect/Template/src/Template/Command/obj/Debug/net7.0/Template.Command.pdb
+D:/david/TemplateProyect/Template/src/Template/Command/obj/Debug/net7.0/ref/Template.Command.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/bin/Debug/net7.0/Template.Command.deps.json
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/bin/Debug/net7.0/Template.Command.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/bin/Debug/net7.0/Template.Command.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/bin/Debug/net7.0/Core.CommandAndQueryHandler.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/bin/Debug/net7.0/Core.Domain.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/bin/Debug/net7.0/Template.Domain.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/bin/Debug/net7.0/Core.CommandAndQueryHandler.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/bin/Debug/net7.0/Template.Domain.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/bin/Debug/net7.0/Core.Domain.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/obj/Debug/net7.0/Command.csproj.AssemblyReference.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/obj/Debug/net7.0/Command.GeneratedMSBuildEditorConfig.editorconfig
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/obj/Debug/net7.0/Command.AssemblyInfoInputs.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/obj/Debug/net7.0/Command.AssemblyInfo.cs
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/obj/Debug/net7.0/Command.csproj.CoreCompileInputs.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/obj/Debug/net7.0/Command.csproj.CopyComplete
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/obj/Debug/net7.0/Template.Command.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/obj/Debug/net7.0/refint/Template.Command.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/obj/Debug/net7.0/Template.Command.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Command/obj/Debug/net7.0/ref/Template.Command.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\bin\Debug\net7.0\Template.Command.deps.json
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\bin\Debug\net7.0\Template.Command.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\bin\Debug\net7.0\Template.Command.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\bin\Debug\net7.0\Core.CommandAndQueryHandler.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\bin\Debug\net7.0\Core.Domain.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\bin\Debug\net7.0\Template.Domain.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\bin\Debug\net7.0\Core.CommandAndQueryHandler.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\bin\Debug\net7.0\Template.Domain.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\bin\Debug\net7.0\Core.Domain.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\obj\Debug\net7.0\Command.csproj.AssemblyReference.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\obj\Debug\net7.0\Command.GeneratedMSBuildEditorConfig.editorconfig
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\obj\Debug\net7.0\Command.AssemblyInfoInputs.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\obj\Debug\net7.0\Command.AssemblyInfo.cs
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\obj\Debug\net7.0\Command.csproj.CoreCompileInputs.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\obj\Debug\net7.0\Command.csproj.CopyComplete
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\obj\Debug\net7.0\Template.Command.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\obj\Debug\net7.0\refint\Template.Command.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\obj\Debug\net7.0\Template.Command.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Command\obj\Debug\net7.0\ref\Template.Command.dll

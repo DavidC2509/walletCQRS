@@ -1,0 +1,585 @@
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Api.GeneratedMSBuildEditorConfig.editorconfig
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Api.AssemblyInfoInputs.cache
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Api.AssemblyInfo.cs
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Api.csproj.CoreCompileInputs.cache
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Template.Api.MvcApplicationPartsAssemblyInfo.cs
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Template.Api.MvcApplicationPartsAssemblyInfo.cache
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/appsettings.Development.json
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/appsettings.json
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Api.exe
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Api.deps.json
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Api.runtimeconfig.json
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Api.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Api.pdb
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Ardalis.Specification.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Ardalis.Specification.EntityFrameworkCore.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/AuthPermissions.AspNetCore.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/AuthPermissions.BaseCode.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/AuthPermissions.PostgreSql.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/AuthPermissions.SqlServer.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/AuthPermissions.SupportCode.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/AuthPermissions.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Autofac.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Autofac.Extensions.DependencyInjection.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Azure.Core.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Azure.Identity.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Azure.Storage.Blobs.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Azure.Storage.Common.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.Azure.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.Core.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.FileSystem.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.MySql.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.Oracle.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.Postgres.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.Redis.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.SqlServer.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.WaitHandles.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/DistributedLock.ZooKeeper.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/TestSupport.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/EntityFramework.Exceptions.Common.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/EntityFramework.Exceptions.PostgreSQL.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/EntityFramework.Exceptions.Sqlite.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/EntityFramework.Exceptions.SqlServer.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/StatusGeneric.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Google.Protobuf.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Humanizer.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/K4os.Hash.xxHash.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/MediatR.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/MediatR.Contracts.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.Graph.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.Graph.Core.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.OpenApi.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Mono.TextTemplating.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/MySql.Data.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/MySql.EntityFrameworkCore.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/MySqlConnector.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Net.DistributedFileStoreCache.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/LocalizeMessagesAndErrors.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/RunMethodsSequentially.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Npgsql.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Oracle.ManagedDataAccess.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Pipelines.Sockets.Unofficial.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/BouncyCastle.Crypto.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Respawn.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/SQLitePCLRaw.core.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/StackExchange.Redis.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.CodeDom.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.Diagnostics.PerformanceCounter.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.DirectoryServices.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.DirectoryServices.Protocols.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.Drawing.Common.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.Memory.Data.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.Runtime.Caching.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.Security.Permissions.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.Threading.AccessControl.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/System.Windows.Extensions.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/xunit.abstractions.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/xunit.assert.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/xunit.core.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/xunit.execution.dotnet.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/ZooKeeperNetEx.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/ZstdSharp.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-x64/native/comerr64.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-x64/native/gssapi64.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-x64/native/k5sprt64.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-x64/native/krb5_64.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-x64/native/krbcc64.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/browser-wasm/nativeassets/net7.0/e_sqlite3.a
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux-s390x/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/linux/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/osx/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Threading.AccessControl.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Core.CommandAndQueryHandler.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Core.Domain.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Command.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Domain.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Query.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Services.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Services.pdb
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Core.CommandAndQueryHandler.pdb
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Core.Domain.pdb
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Command.pdb
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Domain.pdb
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Template.Query.pdb
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/staticwebassets/msbuild.Template.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/staticwebassets/msbuild.build.Template.Api.props
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Template.Api.props
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Template.Api.props
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/staticwebassets.pack.json
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/staticwebassets.build.json
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/staticwebassets.development.json
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/scopedcss/bundle/Template.Api.styles.css
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Api.csproj.CopyComplete
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Template.Api.dll
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/refint/Template.Api.dll
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Template.Api.pdb
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/Api.genruntimeconfig.cache
+D:/david/TemplateProyect/Template/src/Template/Api/obj/Debug/net7.0/ref/Template.Api.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/AutoMapper.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Core.Controller.dll
+D:/david/TemplateProyect/Template/src/Template/Api/bin/Debug/net7.0/Core.Controller.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/appsettings.Development.json
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/appsettings.json
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Api.exe
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Api.deps.json
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Api.runtimeconfig.json
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Api.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Api.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Ardalis.Specification.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Ardalis.Specification.EntityFrameworkCore.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/AuthPermissions.AspNetCore.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/AuthPermissions.BaseCode.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/AuthPermissions.PostgreSql.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/AuthPermissions.SqlServer.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/AuthPermissions.SupportCode.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/AuthPermissions.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Autofac.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Autofac.Extensions.DependencyInjection.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/AutoMapper.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Azure.Core.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Azure.Identity.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Azure.Storage.Blobs.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Azure.Storage.Common.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.Azure.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.Core.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.FileSystem.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.MySql.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.Oracle.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.Postgres.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.Redis.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.SqlServer.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.WaitHandles.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/DistributedLock.ZooKeeper.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/TestSupport.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/EntityFramework.Exceptions.Common.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/EntityFramework.Exceptions.PostgreSQL.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/EntityFramework.Exceptions.Sqlite.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/EntityFramework.Exceptions.SqlServer.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/StatusGeneric.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Google.Protobuf.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Humanizer.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/K4os.Hash.xxHash.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/MediatR.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/MediatR.Contracts.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Graph.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Graph.Core.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.OpenApi.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Mono.TextTemplating.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/MySql.Data.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/MySql.EntityFrameworkCore.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/MySqlConnector.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Net.DistributedFileStoreCache.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/LocalizeMessagesAndErrors.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/RunMethodsSequentially.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Npgsql.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Oracle.ManagedDataAccess.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Pipelines.Sockets.Unofficial.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/BouncyCastle.Crypto.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Respawn.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/SQLitePCLRaw.core.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/StackExchange.Redis.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.CodeDom.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.Diagnostics.PerformanceCounter.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.DirectoryServices.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.DirectoryServices.Protocols.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.Drawing.Common.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.Memory.Data.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.Runtime.Caching.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.Security.Permissions.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.Threading.AccessControl.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/System.Windows.Extensions.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/xunit.abstractions.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/xunit.assert.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/xunit.core.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/xunit.execution.dotnet.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/ZooKeeperNetEx.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/ZstdSharp.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-x64/native/comerr64.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-x64/native/gssapi64.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-x64/native/k5sprt64.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-x64/native/krb5_64.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-x64/native/krbcc64.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/browser-wasm/nativeassets/net7.0/e_sqlite3.a
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux-s390x/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/linux/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/osx/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Threading.AccessControl.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Core.CommandAndQueryHandler.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Core.Controller.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Core.Domain.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Command.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Domain.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Services.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Core.Controller.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Services.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Core.CommandAndQueryHandler.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Core.Domain.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Command.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/bin/Debug/net7.0/Template.Domain.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Api.GeneratedMSBuildEditorConfig.editorconfig
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Api.AssemblyInfoInputs.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Api.AssemblyInfo.cs
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Api.csproj.CoreCompileInputs.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Template.Api.MvcApplicationPartsAssemblyInfo.cs
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Template.Api.MvcApplicationPartsAssemblyInfo.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/staticwebassets/msbuild.Template.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/staticwebassets/msbuild.build.Template.Api.props
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Template.Api.props
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Template.Api.props
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/staticwebassets.pack.json
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/staticwebassets.build.json
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/staticwebassets.development.json
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/scopedcss/bundle/Template.Api.styles.css
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Api.csproj.CopyComplete
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Template.Api.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/refint/Template.Api.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Template.Api.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/Api.genruntimeconfig.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Api/obj/Debug/net7.0/ref/Template.Api.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\appsettings.Development.json
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\appsettings.json
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Api.exe
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Api.deps.json
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Api.runtimeconfig.json
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Api.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Api.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Ardalis.EFCore.Extensions.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Ardalis.Specification.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Ardalis.Specification.EntityFrameworkCore.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\AuthPermissions.AspNetCore.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\AuthPermissions.BaseCode.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\AuthPermissions.PostgreSql.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\AuthPermissions.SqlServer.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\AuthPermissions.SupportCode.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\AuthPermissions.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Autofac.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\AutoMapper.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Azure.Core.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Azure.Identity.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Azure.Storage.Blobs.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Azure.Storage.Common.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.Azure.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.Core.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.FileSystem.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.MySql.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.Oracle.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.Postgres.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.Redis.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.SqlServer.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.WaitHandles.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\DistributedLock.ZooKeeper.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\TestSupport.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\EntityFramework.Exceptions.Common.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\EntityFramework.Exceptions.PostgreSQL.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\EntityFramework.Exceptions.Sqlite.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\EntityFramework.Exceptions.SqlServer.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\StatusGeneric.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Google.Protobuf.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Humanizer.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\MediatR.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Graph.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Graph.Core.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\MySql.Data.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\MySqlConnector.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Net.DistributedFileStoreCache.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\LocalizeMessagesAndErrors.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\RunMethodsSequentially.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Npgsql.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Oracle.ManagedDataAccess.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Respawn.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\StackExchange.Redis.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.CodeDom.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.DirectoryServices.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.DirectoryServices.Protocols.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.Memory.Data.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.Threading.AccessControl.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\xunit.abstractions.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\xunit.assert.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\xunit.core.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\xunit.execution.dotnet.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\ZooKeeperNetEx.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\ZstdSharp.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Core.CommandAndQueryHandler.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Core.Controller.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Core.Domain.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Command.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Domain.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Services.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Core.Controller.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Services.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Core.CommandAndQueryHandler.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Core.Domain.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Command.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\bin\Debug\net7.0\Template.Domain.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Api.csproj.AssemblyReference.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Api.AssemblyInfoInputs.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Api.AssemblyInfo.cs
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Api.csproj.CoreCompileInputs.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Template.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Template.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\staticwebassets\msbuild.Template.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.Template.Api.props
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Template.Api.props
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Template.Api.props
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\staticwebassets.pack.json
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\staticwebassets.build.json
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\staticwebassets.development.json
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\scopedcss\bundle\Template.Api.styles.css
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Api.csproj.CopyComplete
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Template.Api.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\refint\Template.Api.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Template.Api.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\Api.genruntimeconfig.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Api\obj\Debug\net7.0\ref\Template.Api.dll

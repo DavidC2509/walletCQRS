@@ -1,0 +1,65 @@
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Template.Services.deps.json
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Template.Services.dll
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Template.Services.pdb
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Core.CommandAndQueryHandler.dll
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Core.Domain.dll
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Template.Command.dll
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Template.Domain.dll
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Template.Query.dll
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Template.Command.pdb
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Template.Query.pdb
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Core.CommandAndQueryHandler.pdb
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Core.Domain.pdb
+D:/david/TemplateProyect/Template/src/Template/Services/bin/Debug/net7.0/Template.Domain.pdb
+D:/david/TemplateProyect/Template/src/Template/Services/obj/Debug/net7.0/Services.csproj.AssemblyReference.cache
+D:/david/TemplateProyect/Template/src/Template/Services/obj/Debug/net7.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+D:/david/TemplateProyect/Template/src/Template/Services/obj/Debug/net7.0/Services.AssemblyInfoInputs.cache
+D:/david/TemplateProyect/Template/src/Template/Services/obj/Debug/net7.0/Services.AssemblyInfo.cs
+D:/david/TemplateProyect/Template/src/Template/Services/obj/Debug/net7.0/Services.csproj.CoreCompileInputs.cache
+D:/david/TemplateProyect/Template/src/Template/Services/obj/Debug/net7.0/Services.csproj.CopyComplete
+D:/david/TemplateProyect/Template/src/Template/Services/obj/Debug/net7.0/Template.Services.dll
+D:/david/TemplateProyect/Template/src/Template/Services/obj/Debug/net7.0/refint/Template.Services.dll
+D:/david/TemplateProyect/Template/src/Template/Services/obj/Debug/net7.0/Template.Services.pdb
+D:/david/TemplateProyect/Template/src/Template/Services/obj/Debug/net7.0/ref/Template.Services.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Template.Services.deps.json
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Template.Services.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Template.Services.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Core.CommandAndQueryHandler.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Core.Domain.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Template.Command.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Template.Domain.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Template.Command.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Core.CommandAndQueryHandler.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Core.Domain.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/bin/Debug/net7.0/Template.Domain.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/obj/Debug/net7.0/Services.csproj.AssemblyReference.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/obj/Debug/net7.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/obj/Debug/net7.0/Services.AssemblyInfoInputs.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/obj/Debug/net7.0/Services.AssemblyInfo.cs
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/obj/Debug/net7.0/Services.csproj.CoreCompileInputs.cache
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/obj/Debug/net7.0/Services.csproj.CopyComplete
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/obj/Debug/net7.0/Template.Services.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/obj/Debug/net7.0/refint/Template.Services.dll
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/obj/Debug/net7.0/Template.Services.pdb
+D:/david/Taller/Programacion/Programacion/src/Wallet/Services/obj/Debug/net7.0/ref/Template.Services.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Template.Services.deps.json
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Template.Services.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Template.Services.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Core.CommandAndQueryHandler.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Core.Domain.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Template.Command.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Template.Domain.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Template.Command.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Core.CommandAndQueryHandler.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Core.Domain.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\bin\Debug\net7.0\Template.Domain.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\obj\Debug\net7.0\Services.csproj.AssemblyReference.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\obj\Debug\net7.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\obj\Debug\net7.0\Services.AssemblyInfoInputs.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\obj\Debug\net7.0\Services.AssemblyInfo.cs
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\obj\Debug\net7.0\Services.csproj.CoreCompileInputs.cache
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\obj\Debug\net7.0\Services.csproj.CopyComplete
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\obj\Debug\net7.0\Template.Services.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\obj\Debug\net7.0\refint\Template.Services.dll
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\obj\Debug\net7.0\Template.Services.pdb
+D:\david\Taller\Progra2\Programacion (1)\src\Wallet\Services\obj\Debug\net7.0\ref\Template.Services.dll

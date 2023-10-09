@@ -1,0 +1,45 @@
+D:/david/TemplateProyect/Template/core/Controller/bin/Debug/net7.0/Core.Controller.deps.json
+D:/david/TemplateProyect/Template/core/Controller/bin/Debug/net7.0/Core.Controller.dll
+D:/david/TemplateProyect/Template/core/Controller/bin/Debug/net7.0/Core.Controller.pdb
+D:/david/TemplateProyect/Template/core/Controller/bin/Debug/net7.0/Core.Domain.dll
+D:/david/TemplateProyect/Template/core/Controller/bin/Debug/net7.0/Core.Domain.pdb
+D:/david/TemplateProyect/Template/core/Controller/obj/Debug/net7.0/Controller.csproj.AssemblyReference.cache
+D:/david/TemplateProyect/Template/core/Controller/obj/Debug/net7.0/Controller.GeneratedMSBuildEditorConfig.editorconfig
+D:/david/TemplateProyect/Template/core/Controller/obj/Debug/net7.0/Controller.AssemblyInfoInputs.cache
+D:/david/TemplateProyect/Template/core/Controller/obj/Debug/net7.0/Controller.AssemblyInfo.cs
+D:/david/TemplateProyect/Template/core/Controller/obj/Debug/net7.0/Controller.csproj.CoreCompileInputs.cache
+D:/david/TemplateProyect/Template/core/Controller/obj/Debug/net7.0/Controller.csproj.CopyComplete
+D:/david/TemplateProyect/Template/core/Controller/obj/Debug/net7.0/Core.Controller.dll
+D:/david/TemplateProyect/Template/core/Controller/obj/Debug/net7.0/refint/Core.Controller.dll
+D:/david/TemplateProyect/Template/core/Controller/obj/Debug/net7.0/Core.Controller.pdb
+D:/david/TemplateProyect/Template/core/Controller/obj/Debug/net7.0/ref/Core.Controller.dll
+D:/david/Taller/Programacion/Programacion/core/Controller/bin/Debug/net7.0/Core.Controller.deps.json
+D:/david/Taller/Programacion/Programacion/core/Controller/bin/Debug/net7.0/Core.Controller.dll
+D:/david/Taller/Programacion/Programacion/core/Controller/bin/Debug/net7.0/Core.Controller.pdb
+D:/david/Taller/Programacion/Programacion/core/Controller/bin/Debug/net7.0/Core.Domain.dll
+D:/david/Taller/Programacion/Programacion/core/Controller/bin/Debug/net7.0/Core.Domain.pdb
+D:/david/Taller/Programacion/Programacion/core/Controller/obj/Debug/net7.0/Controller.csproj.AssemblyReference.cache
+D:/david/Taller/Programacion/Programacion/core/Controller/obj/Debug/net7.0/Controller.GeneratedMSBuildEditorConfig.editorconfig
+D:/david/Taller/Programacion/Programacion/core/Controller/obj/Debug/net7.0/Controller.AssemblyInfoInputs.cache
+D:/david/Taller/Programacion/Programacion/core/Controller/obj/Debug/net7.0/Controller.AssemblyInfo.cs
+D:/david/Taller/Programacion/Programacion/core/Controller/obj/Debug/net7.0/Controller.csproj.CoreCompileInputs.cache
+D:/david/Taller/Programacion/Programacion/core/Controller/obj/Debug/net7.0/Controller.csproj.CopyComplete
+D:/david/Taller/Programacion/Programacion/core/Controller/obj/Debug/net7.0/Core.Controller.dll
+D:/david/Taller/Programacion/Programacion/core/Controller/obj/Debug/net7.0/refint/Core.Controller.dll
+D:/david/Taller/Programacion/Programacion/core/Controller/obj/Debug/net7.0/Core.Controller.pdb
+D:/david/Taller/Programacion/Programacion/core/Controller/obj/Debug/net7.0/ref/Core.Controller.dll
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\bin\Debug\net7.0\Core.Controller.deps.json
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\bin\Debug\net7.0\Core.Controller.dll
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\bin\Debug\net7.0\Core.Controller.pdb
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\bin\Debug\net7.0\Core.Domain.dll
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\bin\Debug\net7.0\Core.Domain.pdb
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\obj\Debug\net7.0\Controller.csproj.AssemblyReference.cache
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\obj\Debug\net7.0\Controller.GeneratedMSBuildEditorConfig.editorconfig
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\obj\Debug\net7.0\Controller.AssemblyInfoInputs.cache
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\obj\Debug\net7.0\Controller.AssemblyInfo.cs
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\obj\Debug\net7.0\Controller.csproj.CoreCompileInputs.cache
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\obj\Debug\net7.0\Controller.csproj.CopyComplete
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\obj\Debug\net7.0\Core.Controller.dll
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\obj\Debug\net7.0\refint\Core.Controller.dll
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\obj\Debug\net7.0\Core.Controller.pdb
+D:\david\Taller\Progra2\Programacion (1)\core\Controller\obj\Debug\net7.0\ref\Core.Controller.dll
