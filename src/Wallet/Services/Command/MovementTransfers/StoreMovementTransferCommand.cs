@@ -1,4 +1,5 @@
 
+using System;
 using MediatR;
 
 namespace Template.Services.Command.MovementTransfers
@@ -8,6 +9,7 @@ namespace Template.Services.Command.MovementTransfers
         public Guid AccountOrigin { get; set; }
         public Guid AccountDestiny { get; set; }
         public double Amount { get; set; }
+        public DateTime Date { get; set; }
 
     }
 }

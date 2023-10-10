@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Template.Command.Migrations
 {
     /// <inheritdoc />
-    public partial class Trasnfer : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -85,9 +85,14 @@ namespace Template.Command.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     DataKey = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    NameAccountOrigin = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AccountOriginId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     MovementOriginId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    NameAccountDestiny = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AccountDestinyId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     MovementDestitnyId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Amount = table.Column<double>(type: "float", nullable: false),
+                    Date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     dCompDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -231,6 +236,7 @@ namespace Template.Command.Migrations
                     AccountId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CategoryMovementId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     TypeMovement = table.Column<int>(type: "int", nullable: false),
+                    Date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     dCompDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>

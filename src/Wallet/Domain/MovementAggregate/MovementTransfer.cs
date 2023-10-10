@@ -3,6 +3,7 @@ using Core.Domain;
 using AuthPermissions.BaseCode.CommonCode;
 using MediatR;
 using Template.Domain.AccountAggregate;
+using Template.Domain.MovementAggregate.Events;
 
 
 namespace Template.Domain.MovementAggregate
@@ -12,11 +13,13 @@ namespace Template.Domain.MovementAggregate
 
         public string DataKey { get; set; }
         public string NameAccountOrigin { get; set; }
+        public Guid AccountOriginId { get; set; }
         public Guid MovementOriginId { get; set; }
-
         public string NameAccountDestiny { get; set; }
+        public Guid AccountDestinyId { get; set; }
         public Guid MovementDestitnyId { get; set; }
         public double Amount { get; set; }
+        public DateTime Date { get; set; }
 
         public MovementTransfer()
         {
@@ -25,14 +28,19 @@ namespace Template.Domain.MovementAggregate
             NameAccountOrigin = string.Empty;
         }
 
-        public MovementTransfer(Guid movementOriginId, string nameAccountOrigin, Guid MovementDestinyId, string nameAccountDestiny, double amount)
+        public MovementTransfer(Guid accountOriginId, Guid movementOriginId, string nameAccountOrigin,
+        Guid MovementDestinyId, Guid accountDestinyId,
+        string nameAccountDestiny, double amount, DateTime date)
         {
             DataKey = string.Empty;
+            AccountOriginId = accountOriginId;
             NameAccountDestiny = nameAccountDestiny;
             NameAccountOrigin = nameAccountOrigin;
             MovementOriginId = movementOriginId;
+            AccountDestinyId = accountDestinyId;
             MovementDestitnyId = MovementDestinyId;
             Amount = amount;
+            Date = date;
         }
 
         public IReadOnlyCollection<INotification> DomainEvents => _domainEvents.AsReadOnly();
@@ -49,6 +57,26 @@ namespace Template.Domain.MovementAggregate
         public void ClearDomainEventsAwait()
         {
             _domainEventsAwait.Clear();
+        }
+
+        public void UpdateMovementTransfer(double amount, DateTime date)
+        {
+            Amount = amount;
+            Date = date;
+            NotificacionMovement();
+        }
+
+        public void DeleteOriginAccount()
+        {
+            var storeAccountUserEvent = new DeleteOriginMovementEvent(this);
+            _domainEventsAwait.Add(storeAccountUserEvent);
+        }
+
+
+        internal void NotificacionMovement()
+        {
+            var storeAccountUserEvent = new NotificacionOriginMovementEvent(this);
+            _domainEventsAwait.Add(storeAccountUserEvent);
         }
 
     }

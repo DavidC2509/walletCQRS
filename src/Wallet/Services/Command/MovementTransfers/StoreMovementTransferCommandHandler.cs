@@ -33,16 +33,16 @@ namespace Template.Services.Command.MovementTransfers
             var specCategory = new CategoryMovementTransferSpec();
             var categoryMovement = await _categoryRepository.FirstOrDefaultAsync(specCategory, cancellationToken);
 
-            accountOrigin.AddMovement(categoryMovement, TypeMovement.ExitTransfer, request.Amount, "Transferencia de cuenta Salidad", DateTime.Now);
-            accountDestiny.AddMovement(categoryMovement, TypeMovement.IncomeTransfer, request.Amount, "Transferencia de cuenta Entrada", DateTime.Now);
+            accountOrigin.AddMovement(categoryMovement, TypeMovement.ExitTransfer, request.Amount, "Transferencia de cuenta Salidad", request.Date);
+            accountDestiny.AddMovement(categoryMovement, TypeMovement.IncomeTransfer, request.Amount, "Transferencia de cuenta Entrada", request.Date);
 
             _accountRepository.Update(accountOrigin);
             _accountRepository.Update(accountDestiny);
 
             await _accountRepository.UnitOfWork.SaveEntitiesAsync(cancellationToken);
 
-            var movementTransfer = new MovementTransfer(accountOrigin.Movements.Last().Id, accountOrigin.Name,
-            accountDestiny.Movements.Last().Id, accountDestiny.Name, request.Amount);
+            var movementTransfer = new MovementTransfer(accountOrigin.Id, accountOrigin.Movements.Last().Id, accountOrigin.Name,
+            accountDestiny.Id, accountDestiny.Movements.Last().Id, accountDestiny.Name, request.Amount, request.Date);
 
             _repository.Add(movementTransfer);
             await _repository.UnitOfWork.SaveEntitiesAsync(cancellationToken);

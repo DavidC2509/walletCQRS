@@ -198,6 +198,9 @@ namespace Template.Command.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("dCompDate");
 
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Descripcion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -258,6 +261,12 @@ namespace Template.Command.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("AccountDestinyId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("AccountOriginId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<double>("Amount")
                         .HasColumnType("float");
 
@@ -269,11 +278,22 @@ namespace Template.Command.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
                     b.Property<Guid>("MovementDestitnyId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("MovementOriginId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("NameAccountDestiny")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameAccountOrigin")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

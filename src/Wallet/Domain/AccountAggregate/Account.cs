@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using Template.Domain.ClassifiersAggregate;
 using MediatR;
 using AuthPermissions.BaseCode.CommonCode;
+using Template.Domain.MovementAggregate;
+using Template.Domain.AccountAggregate.Events;
 
 namespace Template.Domain.AccountAggregate
 {
@@ -64,6 +66,11 @@ namespace Template.Domain.AccountAggregate
             });
             return Salary;
         }
+        public void UpdateAccount(string name, CategoryAccount categoryAccount)
+        {
+            Name = name;
+            CategoryAccount = categoryAccount;
+        }
 
         public void AddMovement(CategoryMovement categoryMovement, TypeMovement typeMovement,
         double amount, string descripcion, DateTime date)
@@ -79,18 +86,18 @@ namespace Template.Domain.AccountAggregate
         {
             var movement = _movement.Find(x => x.Id == movementId)!;
 
-            if (movement.TypeMovement == TypeMovement.Income)
+            if (movement.TypeMovement == TypeMovement.Income && movement.TypeMovement == TypeMovement.IncomeTransfer)
             {
-                ValidateUpdateTypeIncome(movement, amount);
+                ValidateUpdateIncome(movement, amount);
             }
             else
             {
-                ValidateUpdateTypeExit(movement, amount);
+                ValidateUpdateExit(movement, amount);
             }
             movement?.UpdateMovement(amount, descripcion, date);
         }
 
-        internal void ValidateUpdateTypeIncome(Movement movement, double amount)
+        internal void ValidateUpdateIncome(Movement movement, double amount)
         {
             if (amount < movement.Amount)
             {
@@ -100,7 +107,7 @@ namespace Template.Domain.AccountAggregate
             }
         }
 
-        internal void ValidateUpdateTypeExit(Movement movement, double amount)
+        internal void ValidateUpdateExit(Movement movement, double amount)
         {
             if (amount > movement.Amount)
             {
@@ -110,25 +117,28 @@ namespace Template.Domain.AccountAggregate
             }
         }
 
-
-
         public void DeleteMovement(Guid movementId)
         {
             var movement = _movement.Find(x => x.Id == movementId)!;
 
-            if (movement.TypeMovement == TypeMovement.Income || movement.Amount > Salary) throw new InvalidOperationException("No puedes Modificar la salida mayor al total Salario");
+            if ((movement.TypeMovement == TypeMovement.Income && movement.TypeMovement == TypeMovement.IncomeTransfer) || movement.Amount > Salary) throw new InvalidOperationException("No puedes Modificar la salida mayor al total Salario");
 
             _movement.Remove(movement);
-
         }
 
-
-
-        public void UpdateAccount(string name, CategoryAccount categoryAccount)
+        public void NotificationMovementDestiny(MovementTransfer movementTransfer)
         {
-            Name = name;
-            CategoryAccount = categoryAccount;
+            var storeAccountUserEvent = new NotificacionDestinyMovementEvent(movementTransfer);
+            _domainEventsAwait.Add(storeAccountUserEvent);
         }
+
+        public void DeleteMovementDestiny(MovementTransfer movementTransfer)
+        {
+            var storeAccountUserEvent = new DeleteDestinyMovementEvent(movementTransfer);
+            _domainEventsAwait.Add(storeAccountUserEvent);
+        }
+
+
 
         public void ClearDomainEvents()
         {

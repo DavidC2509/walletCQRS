@@ -12,8 +12,8 @@ using Template.Command.Database;
 namespace Template.Command.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20231006191751_Trasnfer")]
-    partial class Trasnfer
+    [Migration("20231010174639_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -201,6 +201,9 @@ namespace Template.Command.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("dCompDate");
 
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Descripcion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -261,6 +264,12 @@ namespace Template.Command.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("AccountDestinyId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("AccountOriginId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<double>("Amount")
                         .HasColumnType("float");
 
@@ -272,11 +281,22 @@ namespace Template.Command.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
                     b.Property<Guid>("MovementDestitnyId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("MovementOriginId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("NameAccountDestiny")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameAccountOrigin")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

@@ -70,8 +70,6 @@ namespace Template.Command.Database
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
 
-            Console.WriteLine("Entro a Guardar");
-
             foreach (Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry<IDataKeyFilterReadWrite> entry in
                    ChangeTracker
                        .Entries<IDataKeyFilterReadWrite>())
@@ -83,11 +81,9 @@ namespace Template.Command.Database
                 }
             }
 
-            Console.WriteLine("Entro a Guardar");
-
-            int result = await base.SaveChangesAsync(cancellationToken);
-
             await EventDispacher();
+            int result = await base.SaveChangesAsync(cancellationToken).ConfigureAwait(true);
+
             // dispatch events only if save was successful
 
             return result;
@@ -114,7 +110,6 @@ namespace Template.Command.Database
         public DbSet<CategoryAccount> CategoryAccounts => Set<CategoryAccount>();
         public DbSet<CategoryMovement> CategoryMovements => Set<CategoryMovement>();
         public DbSet<Account> Accounts => Set<Account>();
-        // public DbSet<Movement> Movements => Set<Movement>();
 
         public DbSet<MovementTransfer> MovementTransferts => Set<MovementTransfer>();
 
