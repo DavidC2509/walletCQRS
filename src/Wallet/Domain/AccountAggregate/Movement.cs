@@ -12,7 +12,7 @@ namespace Template.Domain.AccountAggregate
         public string Descripcion { get; set; }
         public double Amount { get; set; }
         public Guid AccountId { get; set; }
-        public CategoryMovement CategoryMovement { get; set; }
+        public CategoryMovement? CategoryMovement { get; set; }
         public TypeMovement TypeMovement { get; set; }
         public DateTime Date { get; set; }
 

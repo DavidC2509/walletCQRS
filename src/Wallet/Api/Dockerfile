@@ -7,16 +7,15 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["src/Template/Api/Api.csproj", "src/Template/Api/"]
-COPY ["src/Template/Services/Services.csproj", "src/Template/Services/"]
-COPY ["src/Template/Command/Command.csproj", "src/Template/Command/"]
+COPY ["src/Wallet/Api/Api.csproj", "src/Wallet/Api/"]
+COPY ["src/Wallet/Services/Services.csproj", "src/Wallet/Services/"]
+COPY ["src/Wallet/Command/Command.csproj", "src/Wallet/Command/"]
 COPY ["core/CommandAndQueryHandler/CommandAndQueryHandler.csproj", "core/CommandAndQueryHandler/"]
 COPY ["core/Domain/Domain.csproj", "core/Domain/"]
-COPY ["src/Template/Domain/Domain.csproj", "src/Template/Domain/"]
-COPY ["src/Template/Query/Query.csproj", "src/Template/Query/"]
-RUN dotnet restore "src/Template/Api/Api.csproj"
+COPY ["src/Wallet/Domain/Domain.csproj", "src/Wallet/Domain/"]
+RUN dotnet restore "src/Wallet/Api/Api.csproj"
 COPY . .
-WORKDIR "/src/src/Template/Api"
+WORKDIR "/src/src/Wallet/Api"
 RUN dotnet build "Api.csproj" -c Release -o /app/build
 
 FROM build AS publish

@@ -40,14 +40,6 @@ namespace Template.Command.Database
         public override string TablePrefix => "wallet";
 
 
-        // protected override void OnPreModelCreating(ModelBuilder modelBuilder)
-        // {
-        //     Console.WriteLine("Entro a la configuracion");
-        //     modelBuilder.ApplyConfiguration(new AccountConfiguration());
-        //     modelBuilder.ApplyAllConfigurationsFromCurrentAssembly();
-        //     base.OnModelCreating(modelBuilder);
-        // }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
@@ -110,7 +102,6 @@ namespace Template.Command.Database
         public DbSet<CategoryAccount> CategoryAccounts => Set<CategoryAccount>();
         public DbSet<CategoryMovement> CategoryMovements => Set<CategoryMovement>();
         public DbSet<Account> Accounts => Set<Account>();
-
         public DbSet<MovementTransfer> MovementTransferts => Set<MovementTransfer>();
 
     }

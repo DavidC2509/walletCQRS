@@ -3,7 +3,7 @@ using Core.Domain;
 
 namespace Template.Domain.ClassifiersAggregate
 {
-    public class CategoryGlobal : BaseEntity, IAggregateRoot
+    public class CategoryGlobal : BaseEntity
     {
         public string Name { get; set; }
 

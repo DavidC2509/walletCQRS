@@ -4,7 +4,7 @@ using Core.Domain;
 
 namespace Template.Domain.ClassifiersAggregate
 {
-    public class CategoryMovementGlobal : BaseEntity, IAggregateRoot
+    public class CategoryMovementGlobal : BaseEntity
     {
         public string Name { get; set; }
 

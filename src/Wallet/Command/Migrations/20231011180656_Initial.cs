@@ -234,7 +234,7 @@ namespace Template.Command.Migrations
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Amount = table.Column<double>(type: "float", nullable: false),
                     AccountId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    CategoryMovementId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    CategoryMovementId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     TypeMovement = table.Column<int>(type: "int", nullable: false),
                     Date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     dCompDate = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -252,8 +252,7 @@ namespace Template.Command.Migrations
                         name: "FK_Movement_CategoryMovements_CategoryMovementId",
                         column: x => x.CategoryMovementId,
                         principalTable: "CategoryMovements",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(

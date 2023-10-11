@@ -12,7 +12,7 @@ using Template.Command.Database;
 namespace Template.Command.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20231010174639_Initial")]
+    [Migration("20231011180656_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -194,7 +194,7 @@ namespace Template.Command.Migrations
                     b.Property<double>("Amount")
                         .HasColumnType("float");
 
-                    b.Property<Guid>("CategoryMovementId")
+                    b.Property<Guid?>("CategoryMovementId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("Computed")
@@ -451,9 +451,7 @@ namespace Template.Command.Migrations
 
                     b.HasOne("Template.Domain.ClassifiersAggregate.CategoryMovement", "CategoryMovement")
                         .WithMany()
-                        .HasForeignKey("CategoryMovementId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CategoryMovementId");
 
                     b.Navigation("CategoryMovement");
                 });
