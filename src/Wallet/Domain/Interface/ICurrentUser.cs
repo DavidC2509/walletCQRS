@@ -11,5 +11,8 @@ namespace Template.Domain.Interface
         string GetTenantUser();
         void SetTenantUser(string tenantId);
 
+        string GetGuidUser();
+        string GetNameUser();
+
     }
 }

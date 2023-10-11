@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Template.Domain.UserAggregate;
 using Template.Services.Command.Users;
+using Template.Services.Models;
 
 namespace Template.Services.Mapper
 {
@@ -14,6 +15,8 @@ namespace Template.Services.Mapper
         public UserMappingProfile()
         {
             CreateMap<StoreUserCommand, User>();
+            CreateMap<User, InfoUserModel>();
+
         }
     }
 }

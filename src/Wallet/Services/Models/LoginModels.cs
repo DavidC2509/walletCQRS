@@ -11,11 +11,6 @@ namespace Template.Services.Models
         public string Token {  get; set; }
         public bool Result { get; set; } = false;
 
-        public LoginModels(string token)
-        {
-            Token = token;
-        }
-
         public LoginModels()
         {
             Token = string.Empty;

@@ -19,26 +19,24 @@ namespace Template.Services.Query.Users
 {
     public class LoginQueryHandler : BaseSimpleHandler<LoginQuery, LoginModels>
     {
-        private readonly IMapper _mapper;
         private readonly UserManager<User> _userManager;
         private readonly IConfiguration _configuration;
         private User? _user;
 
-        public LoginQueryHandler(IMapper mapper, UserManager<User> userManager, IConfiguration configuration) : base()
+        public LoginQueryHandler(UserManager<User> userManager, IConfiguration configuration) : base()
         {
-            _mapper = mapper;
             _userManager = userManager;
             _configuration = configuration;
         }
 
         public override async Task<LoginModels> Handle(LoginQuery request, CancellationToken cancellationToken)
         {
-            LoginModels login = new LoginModels();
+            LoginModels login = new();
             _user = await _userManager.FindByNameAsync(request.UserName!);
             var result = _user != null && await _userManager.CheckPasswordAsync(_user, request.Password!);
-            if(result)
+            if (result)
             {
-                login.Token =  CreateTokenAsync();
+                login.Token = CreateTokenAsync();
             }
             login.Result = result;
             return login;
@@ -65,11 +63,13 @@ namespace Template.Services.Query.Users
         {
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, _user!.UserName!),
-                new Claim("TenantId", _user.TenantId)
+                new Claim("Name", _user.UserName!),
+                new Claim("TenantId", _user.TenantId),
+                new Claim("Guid", _user.Id)
+
         };
-            
-            
+
+
             return claims;
         }
 

@@ -18,9 +18,18 @@ namespace Template.Services.Services
             _httpContext = contextAccessor.HttpContext!;
         }
 
+        public string GetGuidUser()
+        {
+            return GetCurrentClaims.GetGuidFromUser(_httpContext.User);
+        }
         public string GetTenantUser()
         {
             return _tenantId ?? GetCurrentClaims.GetTenantFromUser(_httpContext.User);
+        }
+
+        public string GetNameUser()
+        {
+            return GetCurrentClaims.GetNameFromUser(_httpContext.User);
         }
 
         public void SetTenantUser(string tenantId)

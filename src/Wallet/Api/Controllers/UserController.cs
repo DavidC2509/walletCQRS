@@ -30,6 +30,12 @@ namespace Template.Api.Controllers
         public Task<ActionResult<LoginModels>> LoginUser([FromBody] LoginQuery command) => SendRequest(command);
 
 
-      
+        ///<summary>
+        ///Login
+        ///</summary>
+        [HttpGet("info")]
+        [Authorize]
+        public Task<ActionResult<InfoUserModel>> InfoUser() => SendRequest(new InfoQuery());
+
     }
 }

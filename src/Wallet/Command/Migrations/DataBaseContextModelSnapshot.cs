@@ -194,10 +194,6 @@ namespace Template.Command.Migrations
                     b.Property<Guid?>("CategoryMovementId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime>("Computed")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("dCompDate");
-
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
@@ -269,10 +265,6 @@ namespace Template.Command.Migrations
 
                     b.Property<double>("Amount")
                         .HasColumnType("float");
-
-                    b.Property<DateTime>("Computed")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("dCompDate");
 
                     b.Property<string>("DataKey")
                         .IsRequired()
