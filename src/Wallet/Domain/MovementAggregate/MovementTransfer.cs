@@ -8,7 +8,7 @@ using Template.Domain.MovementAggregate.Events;
 
 namespace Template.Domain.MovementAggregate
 {
-    public class MovementTransfer : DomainEventEntity, IAggregateRoot, IDataTenantId, IDataKeyFilterReadWrite
+    public class MovementTransfer : BaseEntity, IAggregateRoot, IDataTenantId, IDataKeyFilterReadWrite
     {
 
         public string DataKey { get; set; }

@@ -9,7 +9,6 @@ namespace Template.Command
         public static void AddDbContext(this IServiceCollection services, string connectionString)
         {
 
-                
             services.AddDbContext<DataBaseContext>(options =>
               options.UseSqlServer(
                 connectionString,

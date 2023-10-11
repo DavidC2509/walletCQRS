@@ -6,7 +6,7 @@ using Template.Domain.ClassifiersAggregate;
 
 namespace Template.Domain.AccountAggregate
 {
-    public class Movement : DomainEventEntity, IAggregateChild<Account>, IDataTenantId
+    public class Movement : BaseEntity, IAggregateChild<Account>, IDataTenantId
     {
 
         public string Descripcion { get; set; }

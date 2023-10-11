@@ -55,7 +55,7 @@ namespace Template.Domain.AccountAggregate
             double Salary = 0;
             _movement.ForEach(mov =>
             {
-                if (mov.TypeMovement == TypeMovement.Income)
+                if (mov.TypeMovement == TypeMovement.Income || mov.TypeMovement == TypeMovement.IncomeTransfer)
                 {
                     Salary += mov.Amount;
                 }
@@ -66,6 +66,7 @@ namespace Template.Domain.AccountAggregate
             });
             return Salary;
         }
+
         public void UpdateAccount(string name, CategoryAccount categoryAccount)
         {
             Name = name;
@@ -137,8 +138,6 @@ namespace Template.Domain.AccountAggregate
             var storeAccountUserEvent = new DeleteDestinyMovementEvent(movementTransfer);
             _domainEventsAwait.Add(storeAccountUserEvent);
         }
-
-
 
         public void ClearDomainEvents()
         {
