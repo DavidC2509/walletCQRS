@@ -1,6 +1,6 @@
 
 using MediatR;
-namespace Template.Domain.MovementAggregate.Events
+namespace Template.Domain.MovementTransferAggregate.Events
 {
     public class NotificacionOriginMovementEvent : INotification
     {

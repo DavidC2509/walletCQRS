@@ -10,7 +10,7 @@ namespace Template.Domain.Specification
     {
         public AccountSpec()
         {
-            Query.Include(c => c.CategoryAccount).Include(z => z.Movements);
+            Query.Include(c => c.CategoryAccount);
         }
     }
 }

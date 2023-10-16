@@ -1,10 +1,9 @@
 using MediatR;
 
-namespace Template.Services.Command.Accounts.Movements
+namespace Template.Services.Command.Movements
 {
     public class UpdateMovementCommand : IRequest<bool>
     {
-        public Guid AccountId { get; set; }
         public Guid MovementId { get; set; }
 
         public string Descripcion { get; set; }
@@ -15,14 +14,10 @@ namespace Template.Services.Command.Accounts.Movements
         {
             Descripcion = string.Empty;
         }
-        
-        public void SetAccountId(Guid accountId)
+
+        public void SetMovementId(Guid movementId)
         {
-            AccountId = accountId;
-        }
-        public void SetMovementId(Guid accountId)
-        {
-            AccountId = accountId;
+            MovementId = movementId;
         }
     }
 }

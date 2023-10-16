@@ -2,17 +2,18 @@
 
 using Ardalis.Specification;
 using Template.Domain.AccountAggregate;
+using Template.Domain.MovementAggregate;
 
 namespace Template.Domain.Specification
 
 {
-    public class AccountByIdSpec : Specification<Account>
+    public class MovementByIdSpec : Specification<Movement>
     {
-        public AccountByIdSpec(Guid id)
+        public MovementByIdSpec(Guid id)
         {
             Query
             .Where(c => c.Id.Equals(id))
-            .Include(c => c.CategoryAccount);
+            .Include(c => c.CategoryMovement);
         }
     }
 }

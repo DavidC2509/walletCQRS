@@ -172,45 +172,14 @@ namespace Template.Command.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<double>("Salary")
+                        .HasColumnType("float");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryAccountId");
 
                     b.ToTable("Accounts");
-                });
-
-            modelBuilder.Entity("Template.Domain.AccountAggregate.Movement", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("AccountId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<double>("Amount")
-                        .HasColumnType("float");
-
-                    b.Property<Guid?>("CategoryMovementId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Descripcion")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("TypeMovement")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AccountId");
-
-                    b.HasIndex("CategoryMovementId");
-
-                    b.ToTable("Movement");
                 });
 
             modelBuilder.Entity("Template.Domain.ClassifiersAggregate.CategoryAccount", b =>
@@ -251,7 +220,43 @@ namespace Template.Command.Migrations
                     b.ToTable("CategoryMovements");
                 });
 
-            modelBuilder.Entity("Template.Domain.MovementAggregate.MovementTransfer", b =>
+            modelBuilder.Entity("Template.Domain.MovementAggregate.Movement", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("AccountId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<double>("Amount")
+                        .HasColumnType("float");
+
+                    b.Property<Guid>("CategoryMovementId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("DataKey")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TypeMovement")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryMovementId");
+
+                    b.ToTable("Movements");
+                });
+
+            modelBuilder.Entity("Template.Domain.MovementTransferAggregate.MovementTransfer", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -430,24 +435,15 @@ namespace Template.Command.Migrations
                     b.Navigation("CategoryAccount");
                 });
 
-            modelBuilder.Entity("Template.Domain.AccountAggregate.Movement", b =>
+            modelBuilder.Entity("Template.Domain.MovementAggregate.Movement", b =>
                 {
-                    b.HasOne("Template.Domain.AccountAggregate.Account", null)
-                        .WithMany("Movements")
-                        .HasForeignKey("AccountId")
+                    b.HasOne("Template.Domain.ClassifiersAggregate.CategoryMovement", "CategoryMovement")
+                        .WithMany()
+                        .HasForeignKey("CategoryMovementId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Template.Domain.ClassifiersAggregate.CategoryMovement", "CategoryMovement")
-                        .WithMany()
-                        .HasForeignKey("CategoryMovementId");
-
                     b.Navigation("CategoryMovement");
-                });
-
-            modelBuilder.Entity("Template.Domain.AccountAggregate.Account", b =>
-                {
-                    b.Navigation("Movements");
                 });
 #pragma warning restore 612, 618
         }

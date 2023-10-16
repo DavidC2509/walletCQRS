@@ -11,8 +11,7 @@ namespace Template.Domain.Specification
         public AccountByMovementIdSpec(Guid id)
         {
             Query
-            .Include(c => c.CategoryAccount)
-            .Include(z => z.Movements).Where(c => c.Id.Equals(id));
+            .Include(c => c.CategoryAccount);
         }
     }
 }

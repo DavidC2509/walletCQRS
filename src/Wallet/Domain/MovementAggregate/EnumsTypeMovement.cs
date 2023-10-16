@@ -4,5 +4,4 @@ public enum TypeMovement
     Exit,
     IncomeTransfer,
     ExitTransfer
-
 }

@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace Template.Services.Command.Accounts.Movements
+namespace Template.Services.Command.Movements
 {
     public class StoreMovementCommand : IRequest<bool>
     {

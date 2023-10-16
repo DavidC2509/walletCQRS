@@ -211,6 +211,7 @@ namespace Template.Command.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Salary = table.Column<double>(type: "float", nullable: false),
                     CategoryAccountId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     DataKey = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -226,31 +227,27 @@ namespace Template.Command.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Movement",
+                name: "Movements",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Amount = table.Column<double>(type: "float", nullable: false),
                     AccountId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    CategoryMovementId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    CategoryMovementId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     TypeMovement = table.Column<int>(type: "int", nullable: false),
-                    Date = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Date = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    DataKey = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Movement", x => x.Id);
+                    table.PrimaryKey("PK_Movements", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Movement_Accounts_AccountId",
-                        column: x => x.AccountId,
-                        principalTable: "Accounts",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Movement_CategoryMovements_CategoryMovementId",
+                        name: "FK_Movements_CategoryMovements_CategoryMovementId",
                         column: x => x.CategoryMovementId,
                         principalTable: "CategoryMovements",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -298,19 +295,17 @@ namespace Template.Command.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Movement_AccountId",
-                table: "Movement",
-                column: "AccountId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Movement_CategoryMovementId",
-                table: "Movement",
+                name: "IX_Movements_CategoryMovementId",
+                table: "Movements",
                 column: "CategoryMovementId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Accounts");
+
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
@@ -327,10 +322,13 @@ namespace Template.Command.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Movement");
+                name: "Movements");
 
             migrationBuilder.DropTable(
                 name: "MovementTransferts");
+
+            migrationBuilder.DropTable(
+                name: "CategoryAccounts");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
@@ -339,13 +337,7 @@ namespace Template.Command.Migrations
                 name: "AspNetUsers");
 
             migrationBuilder.DropTable(
-                name: "Accounts");
-
-            migrationBuilder.DropTable(
                 name: "CategoryMovements");
-
-            migrationBuilder.DropTable(
-                name: "CategoryAccounts");
         }
     }
 }

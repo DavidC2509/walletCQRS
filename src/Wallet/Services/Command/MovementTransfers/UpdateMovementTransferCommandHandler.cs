@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Template.Domain.AccountAggregate;
 using Template.Domain.ClassifiersAggregate;
-using Template.Domain.MovementAggregate;
+using Template.Domain.MovementTransferAggregate;
 using Template.Domain.UserAggregate;
 
 namespace Template.Services.Command.MovementTransfers

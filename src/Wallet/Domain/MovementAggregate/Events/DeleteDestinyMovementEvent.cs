@@ -1,7 +1,7 @@
 
 using MediatR;
-using Template.Domain.MovementAggregate;
-namespace Template.Domain.AccountAggregate.Events
+using Template.Domain.MovementTransferAggregate;
+namespace Template.Domain.MovementAggregate.Events
 {
     public class DeleteDestinyMovementEvent : INotification
     {

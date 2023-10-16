@@ -3,7 +3,7 @@ using Core.CommandAndQueryHandler;
 using Core.Domain.Repository;
 using Template.Domain.AccountAggregate;
 using Template.Domain.ClassifiersAggregate;
-using Template.Domain.MovementAggregate;
+using Template.Domain.MovementTransferAggregate;
 using Template.Domain.Specification;
 using Template.Services.Models;
 

@@ -2,11 +2,10 @@
 using Core.Domain;
 using AuthPermissions.BaseCode.CommonCode;
 using MediatR;
-using Template.Domain.AccountAggregate;
-using Template.Domain.MovementAggregate.Events;
+using Template.Domain.MovementTransferAggregate.Events;
 
 
-namespace Template.Domain.MovementAggregate
+namespace Template.Domain.MovementTransferAggregate
 {
     public class MovementTransfer : BaseEntity, IAggregateRoot, IDataTenantId, IDataKeyFilterReadWrite
     {

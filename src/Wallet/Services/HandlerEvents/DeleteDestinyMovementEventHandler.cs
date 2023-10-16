@@ -1,7 +1,8 @@
 using Core.Domain.Repository;
 using MediatR;
 using Template.Domain.AccountAggregate;
-using Template.Domain.AccountAggregate.Events;
+using Template.Domain.MovementAggregate;
+using Template.Domain.MovementAggregate.Events;
 using Template.Domain.Specification;
 
 
@@ -9,19 +10,24 @@ namespace Template.Services.HandlerEvents
 {
     public class DeleteDestinyMovementEventHandler : INotificationHandler<DeleteDestinyMovementEvent>
     {
-        private IRepository<Account> _accountRepository;
+        private IReadRepository<Account> _accountRepository;
 
-        public DeleteDestinyMovementEventHandler(IRepository<Account> category)
+        private IRepository<Movement> _movementRepository;
+
+        public DeleteDestinyMovementEventHandler(IReadRepository<Account> category, IRepository<Movement> movementRepository)
         {
             _accountRepository = category;
+            _movementRepository = movementRepository;
         }
 
         public async Task Handle(DeleteDestinyMovementEvent notification, CancellationToken cancellationToken)
         {
             var spec = new AccountByIdSpec(notification.MovementTransfer.AccountDestinyId);
             var account = await _accountRepository.FirstOrDefaultAsync(spec, cancellationToken);
-            account.DeleteMovement(notification.MovementTransfer.MovementDestitnyId);
-            await _accountRepository.UnitOfWork.SaveEntitiesAsync(cancellationToken);
+            var movement = await _movementRepository.GetByIdAsync(notification.MovementTransfer.MovementOriginId);
+            movement.DeleteMovement(account.Salary);
+            _movementRepository.Delete(movement);
+            await _movementRepository.UnitOfWork.SaveEntitiesAsync(cancellationToken);
         }
     }
 }

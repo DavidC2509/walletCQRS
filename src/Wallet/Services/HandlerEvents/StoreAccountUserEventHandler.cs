@@ -15,15 +15,13 @@ using Template.Services.Services;
 
 namespace Template.Services.HandlerEvents
 {
-    public class storeAccountUserEventHandler : INotificationHandler<StoreAccountUserEvent>
+    public class StoreAccountUserEventHandler : INotificationHandler<StoreAccountUserEvent>
     {
         private IRepository<Account> _category;
-        private readonly ICurrentUser _currentUser;
 
-        public storeAccountUserEventHandler(IRepository<Account> category, ICurrentUser currentUser)
+        public StoreAccountUserEventHandler(IRepository<Account> category)
         {
             _category = category;
-            _currentUser = currentUser;
         }
 
         public async Task Handle(StoreAccountUserEvent notification, CancellationToken cancellationToken)

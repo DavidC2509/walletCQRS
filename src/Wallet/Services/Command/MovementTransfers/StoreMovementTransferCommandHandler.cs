@@ -4,6 +4,7 @@ using Template.Domain.AccountAggregate;
 using Template.Domain.ClassifiersAggregate;
 using Template.Domain.ClassifiersAggregate.Specification;
 using Template.Domain.MovementAggregate;
+using Template.Domain.MovementTransferAggregate;
 using Template.Domain.Specification;
 
 namespace Template.Services.Command.MovementTransfers
@@ -12,13 +13,16 @@ namespace Template.Services.Command.MovementTransfers
     {
 
         private readonly IReadRepository<CategoryMovement> _categoryRepository;
-        private readonly IRepository<Account> _accountRepository;
+        private readonly IReadRepository<Account> _accountRepository;
+        private readonly IRepository<Movement> _movementRepository;
 
         public StoreMovementTransferCommandHandler(IRepository<MovementTransfer> repository
-        , IReadRepository<CategoryMovement> categoryRepository, IRepository<Account> accountRepository) : base(repository)
+        , IReadRepository<CategoryMovement> categoryRepository, IReadRepository<Account> accountRepository,
+        IRepository<Movement> movementRepository) : base(repository)
         {
             _categoryRepository = categoryRepository;
             _accountRepository = accountRepository;
+            _movementRepository = movementRepository;
         }
 
         public async override Task<bool> Handle(StoreMovementTransferCommand request, CancellationToken cancellationToken)
@@ -33,16 +37,18 @@ namespace Template.Services.Command.MovementTransfers
             var specCategory = new CategoryMovementTransferSpec();
             var categoryMovement = await _categoryRepository.FirstOrDefaultAsync(specCategory, cancellationToken);
 
-            accountOrigin.AddMovement(categoryMovement, TypeMovement.ExitTransfer, request.Amount, "Transferencia de cuenta Salidad", request.Date);
-            accountDestiny.AddMovement(categoryMovement, TypeMovement.IncomeTransfer, request.Amount, "Transferencia de cuenta Entrada", request.Date);
+            var movementOrigin = Movement.AddMovement(categoryMovement, TypeMovement.ExitTransfer, request.Amount, "Transferencia de cuenta Salidad",
+            request.Date, request.AccountOrigin, accountOrigin.Salary);
+            var movementDestiny = Movement.AddMovement(categoryMovement, TypeMovement.IncomeTransfer, request.Amount, "Transferencia de cuenta Entrada",
+            request.Date, request.AccountOrigin, accountDestiny.Salary);
 
-            _accountRepository.Update(accountOrigin);
-            _accountRepository.Update(accountDestiny);
+            _movementRepository.Add(movementOrigin);
+            _movementRepository.Add(movementDestiny);
 
-            await _accountRepository.UnitOfWork.SaveEntitiesAsync(cancellationToken);
+            await _movementRepository.UnitOfWork.SaveEntitiesAsync(cancellationToken);
 
-            var movementTransfer = new MovementTransfer(accountOrigin.Id, accountOrigin.Movements.Last().Id, accountOrigin.Name,
-            accountDestiny.Id, accountDestiny.Movements.Last().Id, accountDestiny.Name, request.Amount, request.Date);
+            var movementTransfer = new MovementTransfer(accountOrigin.Id, movementOrigin.Id, accountOrigin.Name,
+            accountDestiny.Id, movementDestiny.Id, accountDestiny.Name, request.Amount, request.Date);
 
             _repository.Add(movementTransfer);
             await _repository.UnitOfWork.SaveEntitiesAsync(cancellationToken);

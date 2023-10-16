@@ -16,6 +16,7 @@ using Template.Domain.ClassifiersAggregate;
 using Template.Domain.Events;
 using Template.Domain.Interface;
 using Template.Domain.MovementAggregate;
+using Template.Domain.MovementTransferAggregate;
 using Template.Domain.UserAggregate;
 
 namespace Template.Command.Database
@@ -102,6 +103,7 @@ namespace Template.Command.Database
         public DbSet<CategoryAccount> CategoryAccounts => Set<CategoryAccount>();
         public DbSet<CategoryMovement> CategoryMovements => Set<CategoryMovement>();
         public DbSet<Account> Accounts => Set<Account>();
+        public DbSet<Movement> Movements => Set<Movement>();
         public DbSet<MovementTransfer> MovementTransferts => Set<MovementTransfer>();
 
     }
