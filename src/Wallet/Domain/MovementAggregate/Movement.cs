@@ -51,7 +51,7 @@ namespace Template.Domain.MovementAggregate
         public static Movement AddMovement(CategoryMovement categoryMovement, TypeMovement typeMovement,
                 double amount, string descripcion, DateTime date, Guid accountId, double Salary)
         {
-            if (typeMovement == TypeMovement.Exit && typeMovement == TypeMovement.ExitTransfer)
+            if (typeMovement == TypeMovement.Exit || typeMovement == TypeMovement.ExitTransfer)
             {
                 if (Salary < amount) throw new InvalidOperationException("No tiene Salario suficiente para la salidad");
             }
@@ -61,7 +61,7 @@ namespace Template.Domain.MovementAggregate
         public void UpdateMovement(double amount, string descripcion, DateTime date, double salary)
         {
 
-            if (TypeMovement == TypeMovement.Income && TypeMovement == TypeMovement.IncomeTransfer)
+            if (TypeMovement == TypeMovement.Income || TypeMovement == TypeMovement.IncomeTransfer)
             {
                 ValidateUpdateIncome(amount, salary);
             }
@@ -98,7 +98,7 @@ namespace Template.Domain.MovementAggregate
         public void DeleteMovement(double salary)
         {
 
-            if ((TypeMovement == TypeMovement.Income && TypeMovement == TypeMovement.IncomeTransfer) || Amount > salary)
+            if ((TypeMovement == TypeMovement.Income || TypeMovement == TypeMovement.IncomeTransfer) && Amount > salary)
             {
                 TypeMovement = TypeMovement.Exit;
                 if (Amount > salary) throw new InvalidOperationException("No puedes Modificar la salida mayor al total Salario");

@@ -8,6 +8,7 @@ namespace Template.Services.Models
 {
     public class MovementTransferModel
     {
+        public Guid Id { get; set; }
         public required string NameAccountOrigin { get; set; }
         public required string NameAccountDestiny { get; set; }
 

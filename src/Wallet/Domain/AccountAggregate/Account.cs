@@ -20,8 +20,6 @@ namespace Template.Domain.AccountAggregate
         public string DataKey { get; set; }
 
 
-
-
         public IReadOnlyCollection<INotification> DomainEvents => _domainEvents.AsReadOnly();
         private readonly List<INotification> _domainEvents = new();
         public IReadOnlyCollection<INotification> DomainEventsAwait => _domainEventsAwait.AsReadOnly();
@@ -37,11 +35,12 @@ namespace Template.Domain.AccountAggregate
 
 
 
-        public Account(string name, CategoryAccount categoryAccount, double salary = 0)
+        public Account(string name, CategoryAccount categoryAccount, double salary)
         {
             DataKey = string.Empty;
             Name = name;
             CategoryAccount = categoryAccount;
+            Salary = salary;
         }
 
         public void UpdateAccount(string name, CategoryAccount categoryAccount)
@@ -63,7 +62,7 @@ namespace Template.Domain.AccountAggregate
 
         public void UpdateSalary(double amount, TypeMovement typeMovement)
         {
-            if (typeMovement == TypeMovement.Income && typeMovement == TypeMovement.IncomeTransfer)
+            if (typeMovement == TypeMovement.Income || typeMovement == TypeMovement.IncomeTransfer)
             {
                 Salary += amount;
             }

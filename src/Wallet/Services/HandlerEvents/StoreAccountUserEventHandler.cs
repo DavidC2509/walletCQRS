@@ -26,7 +26,7 @@ namespace Template.Services.HandlerEvents
 
         public async Task Handle(StoreAccountUserEvent notification, CancellationToken cancellationToken)
         {
-            var account = new Account("Efectivo", notification.CategoryAccount);
+            var account = new Account("Efectivo", notification.CategoryAccount,0);
             _category.Add(account);
             await _category.UnitOfWork.SaveEntitiesAsync(cancellationToken);
         }

@@ -3,6 +3,7 @@ namespace Template.Services.Models
 {
     public class MovementModel
     {
+        public Guid Id { get; set; }
         public string Descripcion { get; set; }
         public double Amount { get; set; }
         public Guid AccountId { get; set; }

@@ -6,6 +6,6 @@ namespace Template.Services.Command.Accounts
     {
         public required string Name { get; set; }
         public double Salary { get; set; }
-        public required string CategoryAccountId { get; set; }
+        public required Guid CategoryAccountId { get; set; }
     }
 }

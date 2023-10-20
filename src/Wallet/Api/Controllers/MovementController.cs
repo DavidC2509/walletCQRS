@@ -52,7 +52,7 @@ namespace Template.Api.Controllers
         ///</summary>
         [HttpPut("{idMovement}")]
         [Authorize]
-        public Task<ActionResult<bool>> UpdateMovement(Guid id,Guid idMovement, [FromBody] UpdateMovementCommand command)
+        public Task<ActionResult<bool>> UpdateMovement(Guid idMovement, [FromBody] UpdateMovementCommand command)
         {
             command.SetMovementId(idMovement);
             return SendRequest(command);
@@ -64,7 +64,7 @@ namespace Template.Api.Controllers
         ///</summary>
         [HttpDelete("{idMovement}")]
         [Authorize]
-        public Task<ActionResult<bool>> DeleteMovement(Guid id, Guid idMovement ,[FromBody] DeleteMovementCommand command)
+        public Task<ActionResult<bool>> DeleteMovement(Guid idMovement ,[FromBody] DeleteMovementCommand command)
         {
             command.SetMovementId(idMovement);
             return SendRequest(command);
