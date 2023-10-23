@@ -8,10 +8,9 @@ namespace Template.Services.Command.MovementTransfers
     {
         public Guid MovementTransferId { get; set; }
 
-        public void SetMovementTransferId(Guid movementTransferId)
+        public DeleteMovementTransferCommand(Guid id)
         {
-            MovementTransferId = movementTransferId;
+            MovementTransferId = id;
         }
-
     }
 }

@@ -64,11 +64,7 @@ namespace Template.Api.Controllers
         ///</summary>
         [HttpDelete("{idMovement}")]
         [Authorize]
-        public Task<ActionResult<bool>> DeleteMovement(Guid idMovement ,[FromBody] DeleteMovementCommand command)
-        {
-            command.SetMovementId(idMovement);
-            return SendRequest(command);
-        }
+        public Task<ActionResult<bool>> DeleteMovement(Guid idMovement) => SendRequest(new DeleteMovementCommand(idMovement));
 
     }
 }

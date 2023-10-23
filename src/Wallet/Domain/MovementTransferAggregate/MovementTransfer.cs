@@ -28,7 +28,7 @@ namespace Template.Domain.MovementTransferAggregate
         }
 
         public MovementTransfer(Guid accountOriginId, Guid movementOriginId, string nameAccountOrigin,
-        Guid MovementDestinyId, Guid accountDestinyId,
+        Guid accountDestinyId, Guid movementDestinyId,
         string nameAccountDestiny, double amount, DateTime date)
         {
             DataKey = string.Empty;
@@ -37,7 +37,7 @@ namespace Template.Domain.MovementTransferAggregate
             NameAccountOrigin = nameAccountOrigin;
             MovementOriginId = movementOriginId;
             AccountDestinyId = accountDestinyId;
-            MovementDestitnyId = MovementDestinyId;
+            MovementDestitnyId = movementDestinyId;
             Amount = amount;
             Date = date;
         }

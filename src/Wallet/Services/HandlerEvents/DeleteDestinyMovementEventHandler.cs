@@ -22,9 +22,12 @@ namespace Template.Services.HandlerEvents
 
         public async Task Handle(DeleteDestinyMovementEvent notification, CancellationToken cancellationToken)
         {
+            Console.WriteLine(notification.MovementTransfer.AccountDestinyId);
+            Console.WriteLine(notification.MovementTransfer.MovementOriginId);
+
             var spec = new AccountByIdSpec(notification.MovementTransfer.AccountDestinyId);
             var account = await _accountRepository.FirstOrDefaultAsync(spec, cancellationToken);
-            var movement = await _movementRepository.GetByIdAsync(notification.MovementTransfer.MovementOriginId);
+            var movement = await _movementRepository.GetByIdAsync(notification.MovementTransfer.MovementDestitnyId);
             movement.DeleteMovement(account.Salary);
             _movementRepository.Delete(movement);
             await _movementRepository.UnitOfWork.SaveEntitiesAsync(cancellationToken);

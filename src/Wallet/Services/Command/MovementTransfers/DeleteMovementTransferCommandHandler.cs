@@ -27,6 +27,7 @@ namespace Template.Services.Command.MovementTransfers
         public async override Task<bool> Handle(DeleteMovementTransferCommand request, CancellationToken cancellationToken)
         {
             var movementTransfer = await _repository.GetByIdAsync(request.MovementTransferId);
+            movementTransfer.DeleteOriginAccount();
             _repository.Delete(movementTransfer);
             await _repository.UnitOfWork.SaveEntitiesAsync(cancellationToken);
             return true;

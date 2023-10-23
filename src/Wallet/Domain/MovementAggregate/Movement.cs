@@ -45,7 +45,7 @@ namespace Template.Domain.MovementAggregate
             Date = date;
             AccountId = accountId;
             DataKey = string.Empty;
-            ModifiedSalary();
+            ModifiedSalary(Amount, TypeMovement);
         }
 
         public static Movement AddMovement(CategoryMovement categoryMovement, TypeMovement typeMovement,
@@ -60,7 +60,6 @@ namespace Template.Domain.MovementAggregate
 
         public void UpdateMovement(double amount, string descripcion, DateTime date, double salary)
         {
-
             if (TypeMovement == TypeMovement.Income || TypeMovement == TypeMovement.IncomeTransfer)
             {
                 ValidateUpdateIncome(amount, salary);
@@ -69,10 +68,10 @@ namespace Template.Domain.MovementAggregate
             {
                 ValidateUpdateExit(amount, salary);
             }
-            ModifiedSalary();
             Amount = amount;
             Descripcion = descripcion;
             Date = date;
+
         }
 
         internal void ValidateUpdateIncome(double amount, double salary)
@@ -81,7 +80,13 @@ namespace Template.Domain.MovementAggregate
             {
                 double amountDiference = Amount - amount;
 
-                if (salary < amountDiference) throw new InvalidOperationException("No puedes Modificar el ingreso menor de eso p    or falto de Salario");
+                if (salary < amountDiference) throw new InvalidOperationException("No puedes Modificar el ingreso menor de eso por falto de Salario");
+                ModifiedSalary(amountDiference, TypeMovement.Exit);
+            }
+            else
+            {
+                double amountDiference = amount - Amount;
+                ModifiedSalary(amountDiference, TypeMovement.Income);
             }
         }
 
@@ -92,13 +97,19 @@ namespace Template.Domain.MovementAggregate
                 double amountDiference = amount - Amount;
 
                 if (amountDiference > salary) throw new InvalidOperationException("No puedes Modificar la salida mayor al total Salario");
+                ModifiedSalary(amountDiference, TypeMovement.Exit);
+
+            }
+            else
+            {
+                double amountDiference = Amount - amount;
+                ModifiedSalary(amountDiference, TypeMovement.Income);
             }
         }
 
         public void DeleteMovement(double salary)
         {
-
-            if ((TypeMovement == TypeMovement.Income || TypeMovement == TypeMovement.IncomeTransfer) && Amount > salary)
+            if (TypeMovement == TypeMovement.Income || TypeMovement == TypeMovement.IncomeTransfer)
             {
                 TypeMovement = TypeMovement.Exit;
                 if (Amount > salary) throw new InvalidOperationException("No puedes Modificar la salida mayor al total Salario");
@@ -107,12 +118,12 @@ namespace Template.Domain.MovementAggregate
             {
                 TypeMovement = TypeMovement.Income;
             }
-            ModifiedSalary();
+            ModifiedSalary(Amount, TypeMovement);
         }
 
-        public void ModifiedSalary()
+        public void ModifiedSalary(double amountDiference, TypeMovement typeMovement)
         {
-            var modifiedSalary = new ModifiedSalaryAccountEvent(AccountId, TypeMovement, Amount);
+            var modifiedSalary = new ModifiedSalaryAccountEvent(AccountId, typeMovement, amountDiference);
             _domainEventsAwait.Add(modifiedSalary);
         }
 

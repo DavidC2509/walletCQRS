@@ -11,9 +11,9 @@ namespace Template.Services.Command.Movements
     {
         public Guid MovementId { get; set; }
 
-        public void SetMovementId(Guid movementId)
+        public DeleteMovementCommand(Guid id)
         {
-            MovementId = movementId;
+            MovementId = id;
         }
 
     }

@@ -75,7 +75,7 @@ namespace Template.Command.Database
             }
 
             await EventDispacher();
-            int result = await base.SaveChangesAsync(cancellationToken).ConfigureAwait(true);
+            int result = await base.SaveChangesAsync(cancellationToken);
 
             // dispatch events only if save was successful
 

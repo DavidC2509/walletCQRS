@@ -22,6 +22,13 @@ namespace Template.Api.Controllers
         [Authorize]
         public Task<ActionResult<IEnumerable<MovementTransferModel>>> ListAccount() => SendRequest(new ListMovementTransferQuery());
 
+        ///<summary>
+        ///Obtener Trasnferencia Movimiento 
+        ///</summary>
+        [HttpGet("{id}")]
+        [Authorize]
+        public Task<ActionResult<MovementTransferModel>> GetAccount(Guid id) => SendRequest(new MovementTransferByIdQuery(id));
+
 
 
         ///<summary>
@@ -49,11 +56,7 @@ namespace Template.Api.Controllers
         ///</summary>
         [HttpDelete("{idMovementTransfer}")]
         [Authorize]
-        public Task<ActionResult<bool>> DeleteTransferMovement(Guid idMovementTransfer, [FromBody] DeleteMovementTransferCommand command)
-        {
-            command.SetMovementTransferId(idMovementTransfer);
-            return SendRequest(command);
-        }
+        public Task<ActionResult<bool>> DeleteTransferMovement(Guid idMovementTransfer)=> SendRequest(new DeleteMovementTransferCommand(idMovementTransfer));
 
 
     }
