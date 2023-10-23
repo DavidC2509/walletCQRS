@@ -11,7 +11,8 @@ namespace Template.Services.Models
         public Guid Id { get; set; }
         public required string NameAccountOrigin { get; set; }
         public required string NameAccountDestiny { get; set; }
-
+        public required double Amount { get; set; }
+        public required DateTime Date { get; set; }
 
     }
 }

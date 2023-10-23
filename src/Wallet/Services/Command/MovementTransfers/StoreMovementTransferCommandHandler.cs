@@ -31,7 +31,7 @@ namespace Template.Services.Command.MovementTransfers
             var accountOrigin = await _accountRepository.FirstOrDefaultAsync(specOrigin, cancellationToken);
 
 
-            var specDestiny = new AccountByIdSpec(request.AccountOrigin);
+            var specDestiny = new AccountByIdSpec(request.AccountDestiny);
             var accountDestiny = await _accountRepository.FirstOrDefaultAsync(specDestiny, cancellationToken);
 
             var specCategory = new CategoryMovementTransferSpec();
@@ -40,7 +40,7 @@ namespace Template.Services.Command.MovementTransfers
             var movementOrigin = Movement.AddMovement(categoryMovement, TypeMovement.ExitTransfer, request.Amount, "Transferencia de cuenta Salidad",
             request.Date, request.AccountOrigin, accountOrigin.Salary);
             var movementDestiny = Movement.AddMovement(categoryMovement, TypeMovement.IncomeTransfer, request.Amount, "Transferencia de cuenta Entrada",
-            request.Date, request.AccountOrigin, accountDestiny.Salary);
+            request.Date, request.AccountDestiny, accountDestiny.Salary);
 
             _movementRepository.Add(movementOrigin);
             _movementRepository.Add(movementDestiny);

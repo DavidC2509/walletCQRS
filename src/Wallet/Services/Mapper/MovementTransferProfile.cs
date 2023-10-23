@@ -15,7 +15,7 @@ namespace Template.Services.Mapper
     {
         public MovementTransferProfile()
         {
-            CreateMap<MovementTransferModel, MovementTransfer>();
+            CreateMap<MovementTransfer, MovementTransferModel > (); 
         }
     }
 }
