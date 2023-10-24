@@ -16,7 +16,7 @@ namespace Template.Domain.AccountAggregate
     {
         public string Name { get; set; }
         public double Salary { get; set; }
-        public CategoryAccount CategoryAccount { get; set; }
+        public CategoryAccount CategoryAccount { get; set; } = null!;
         public string DataKey { get; set; }
 
 
@@ -25,23 +25,23 @@ namespace Template.Domain.AccountAggregate
         public IReadOnlyCollection<INotification> DomainEventsAwait => _domainEventsAwait.AsReadOnly();
         private readonly List<INotification> _domainEventsAwait = new();
 
-        public Account()
+        private Account()
         {
             DataKey = string.Empty;
             Name = string.Empty;
-            CategoryAccount = new CategoryAccount();
-
         }
 
-
-
-        public Account(string name, CategoryAccount categoryAccount, double salary)
+        internal Account(string name, CategoryAccount categoryAccount, double salary) : this()
         {
             DataKey = string.Empty;
             Name = name;
             CategoryAccount = categoryAccount;
             Salary = salary;
         }
+
+        public static Account CreateAccount(string name, CategoryAccount categoryAccount, double salary)
+        => new(name, categoryAccount, salary);
+
 
         public void UpdateAccount(string name, CategoryAccount categoryAccount)
         {

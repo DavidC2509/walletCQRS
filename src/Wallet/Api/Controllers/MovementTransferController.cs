@@ -20,7 +20,7 @@ namespace Template.Api.Controllers
         ///</summary>
         [HttpGet("list")]
         [Authorize]
-        public Task<ActionResult<IEnumerable<MovementTransferModel>>> ListAccount() => SendRequest(new ListMovementTransferQuery());
+        public Task<ActionResult<IEnumerable<MovementTransferModel>>> ListAccount([FromQuery] ListMovementTransferQuery query) => SendRequest(query);
 
         ///<summary>
         ///Obtener Trasnferencia Movimiento 

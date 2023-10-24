@@ -19,7 +19,8 @@ namespace Template.Services.Query.Movements
 
         public async override Task<IEnumerable<MovementModel>> Handle(ListMovementQuery request, CancellationToken cancellationToken)
         {
-            var list = await _repository.ListAsync(cancellationToken);
+            var specMovement = new MovementListSpec(request.StartDate, request.EndDate, request.AccountId, request.TypeMpvement);
+            var list = await _repository.ListAsync(specMovement, cancellationToken);
             Console.WriteLine("Obtuvo listado : " + list.Count);
 
             var resultMapper = _mapper.Map<List<MovementModel>>(list);

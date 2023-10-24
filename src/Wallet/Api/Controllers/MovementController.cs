@@ -24,7 +24,7 @@ namespace Template.Api.Controllers
         ///</summary>
         [HttpGet("list")]
         [Authorize]
-        public Task<ActionResult<IEnumerable<MovementModel>>> ListAccount() => SendRequest(new ListMovementQuery());
+        public Task<ActionResult<IEnumerable<MovementModel>>> ListAccount([FromQuery] ListMovementQuery query) => SendRequest(query);
 
         ///<summary>
         ///Obtener Movimiento

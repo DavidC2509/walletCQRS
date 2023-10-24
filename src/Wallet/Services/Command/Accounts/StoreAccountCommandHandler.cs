@@ -19,7 +19,7 @@ namespace Template.Services.Command.Accounts
         {
 
             var categoryAccount = await _categoryRepository.GetByIdAsync(request.CategoryAccountId);
-            var account = new Account(request.Name, categoryAccount, request.Salary);
+            var account = Account.CreateAccount(request.Name, categoryAccount, request.Salary);
             _repository.Add(account);
             await _repository.UnitOfWork.SaveEntitiesAsync(cancellationToken);
             return true;

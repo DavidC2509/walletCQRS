@@ -57,10 +57,10 @@ namespace Core.Controller
                 var result = await method();
                 return typeof(Unit).Equals(GetType(result)) ? new EmptyResult() : result;
             }
-            catch (ServiceException ex)
+            catch (SystemException ex)
             {
                 Response.StatusCode = 400;
-                return Content(ex.Message, Application.Json, Encoding.UTF8);
+                return BadRequest(ex.Message);
             }
 
         }
@@ -89,10 +89,9 @@ namespace Core.Controller
                 await method();
                 return new EmptyResult();
             }
-            catch (ServiceException ex)
+            catch (SystemException ex)
             {
-                Response.StatusCode = 400;
-                return Content(ex.Message, Application.Json, Encoding.UTF8);
+                return BadRequest(ex.Message);
             }
 
         }
