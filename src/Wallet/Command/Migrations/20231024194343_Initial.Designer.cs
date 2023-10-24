@@ -12,7 +12,7 @@ using Template.Command.Database;
 namespace Template.Command.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20231016193945_Initial")]
+    [Migration("20231024194343_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -243,7 +243,7 @@ namespace Template.Command.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("Date");
 
                     b.Property<string>("Descripcion")
                         .IsRequired()
@@ -279,7 +279,7 @@ namespace Template.Command.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("Date");
 
                     b.Property<Guid>("MovementDestitnyId")
                         .HasColumnType("uniqueidentifier");

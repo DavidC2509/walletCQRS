@@ -5,6 +5,7 @@ using AuthPermissions.BaseCode.CommonCode;
 using Template.Domain.ClassifiersAggregate;
 using Template.Domain.MovementTransferAggregate;
 using Template.Domain.MovementAggregate.Events;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Template.Domain.MovementAggregate
 {
@@ -16,6 +17,8 @@ namespace Template.Domain.MovementAggregate
         public Guid AccountId { get; set; }
         public CategoryMovement CategoryMovement { get; set; }
         public TypeMovement TypeMovement { get; set; }
+        
+        [Column(TypeName = "Date")]
         public DateTime Date { get; set; }
 
         public IReadOnlyCollection<INotification> DomainEvents => _domainEvents.AsReadOnly();

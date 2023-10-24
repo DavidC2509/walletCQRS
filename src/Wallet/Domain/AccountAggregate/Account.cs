@@ -43,9 +43,10 @@ namespace Template.Domain.AccountAggregate
         => new(name, categoryAccount, salary);
 
 
-        public void UpdateAccount(string name, CategoryAccount categoryAccount)
+        public void UpdateAccount(string name,double salary, CategoryAccount categoryAccount)
         {
             Name = name;
+            Salary = salary;
             CategoryAccount = categoryAccount;
         }
 

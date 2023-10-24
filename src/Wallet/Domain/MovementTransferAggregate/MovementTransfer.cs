@@ -3,6 +3,7 @@ using Core.Domain;
 using AuthPermissions.BaseCode.CommonCode;
 using MediatR;
 using Template.Domain.MovementTransferAggregate.Events;
+using System.ComponentModel.DataAnnotations.Schema;
 
 
 namespace Template.Domain.MovementTransferAggregate
@@ -18,6 +19,8 @@ namespace Template.Domain.MovementTransferAggregate
         public Guid AccountDestinyId { get; set; }
         public Guid MovementDestitnyId { get; set; }
         public double Amount { get; set; }
+
+        [Column(TypeName = "Date")]
         public DateTime Date { get; set; }
 
         public MovementTransfer()

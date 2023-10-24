@@ -30,7 +30,7 @@ namespace Template.Services.Command.Accounts
 
             var categoryAccount = await _categoryRepository.GetByIdAsync(request.CategoryAccountId);
             var account = await _repository.GetByIdAsync(request.Id);
-            account.UpdateAccount(request.Name, categoryAccount);
+            account.UpdateAccount(request.Name, request.Salary, categoryAccount);
             _repository.Update(account);
             await _repository.UnitOfWork.SaveEntitiesAsync(cancellationToken);
             return true;

@@ -240,7 +240,7 @@ namespace Template.Command.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("Date");
 
                     b.Property<string>("Descripcion")
                         .IsRequired()
@@ -276,7 +276,7 @@ namespace Template.Command.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("Date");
 
                     b.Property<Guid>("MovementDestitnyId")
                         .HasColumnType("uniqueidentifier");

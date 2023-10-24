@@ -92,7 +92,7 @@ namespace Template.Command.Migrations
                     AccountDestinyId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     MovementDestitnyId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Amount = table.Column<double>(type: "float", nullable: false),
-                    Date = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Date = table.Column<DateTime>(type: "Date", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -236,7 +236,7 @@ namespace Template.Command.Migrations
                     AccountId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CategoryMovementId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     TypeMovement = table.Column<int>(type: "int", nullable: false),
-                    Date = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Date = table.Column<DateTime>(type: "Date", nullable: false),
                     DataKey = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
