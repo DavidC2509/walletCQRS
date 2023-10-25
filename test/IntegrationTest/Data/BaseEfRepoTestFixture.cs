@@ -7,6 +7,9 @@ using Template.Command.Database;
 using Template.Domain.AccountAggregate;
 using Template.Command;
 using Core.Domain.Domain;
+using Core.Domain;
+using Microsoft.AspNetCore.Http;
+using Template.Services.Services;
 
 namespace IntegrationTests.Data;
 public abstract class BaseEfRepoTestFixture
@@ -17,9 +20,10 @@ public abstract class BaseEfRepoTestFixture
   {
     var options = CreateNewContextOptions();
     var mockMediator = new Mock<IMediator>();
-    var mockCurrentUser = new Mock<ICurrentUser>();
-
-    _dbContext = new DataBaseContext(options, mockMediator.Object,mockCurrentUser.Object);
+    var httpContext = new Mock<IHttpContextAccessor>();
+    var mockCurrentUser = new CurrentUser(httpContext.Object);
+    mockCurrentUser.SetTenantUser("TestTenant");
+    _dbContext = new DataBaseContext(options, mockMediator.Object,mockCurrentUser);
   }
 
   protected static DbContextOptions<DataBaseContext> CreateNewContextOptions()
@@ -44,8 +48,8 @@ public abstract class BaseEfRepoTestFixture
     return new EfRepository<Account>(_dbContext);
   }
 
-  // public EfRepository<T> GetRepositoryGeneric<T>() where T : BaseEntity, IAggregateRoot
-  // {
-  //   return new EfRepository<T>(_dbContext);
-  // }
+    public EfRepository<T> GetRepositoryGeneric<T>() where T : BaseEntity, IAggregateRoot
+    {
+        return new EfRepository<T>(_dbContext);
+    }
 }

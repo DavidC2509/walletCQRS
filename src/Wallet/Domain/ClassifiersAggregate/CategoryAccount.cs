@@ -33,6 +33,12 @@ namespace Template.Domain.ClassifiersAggregate
             DataKey = string.Empty;
         }
 
+        public CategoryAccount(string name,string datakey)
+        {
+            Name = name;
+            DataKey = datakey;
+        }
+
 
         public void UpdateCategoryAccount(string name)
         {

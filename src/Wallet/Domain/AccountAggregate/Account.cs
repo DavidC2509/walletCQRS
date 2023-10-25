@@ -39,6 +39,7 @@ namespace Template.Domain.AccountAggregate
             Salary = salary;
         }
 
+
         public static Account CreateAccount(string name, CategoryAccount categoryAccount, double salary)
         => new(name, categoryAccount, salary);
 

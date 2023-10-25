@@ -14,7 +14,7 @@ namespace Template.Domain.Specification
             Query
            .Where(c =>
             dateInit == null || dateEnd == null ||
-            (Convert.ToDateTime(c.Date.ToString("d")) >= dateInit && Convert.ToDateTime(c.Date.ToString("d")) <= dateEnd)
+           c.Date >= dateInit && c.Date <= dateEnd
         )
         // Filtrar por accountId si accountId no es nulo
         .Where(c => accountId == null || c.AccountId == accountId)

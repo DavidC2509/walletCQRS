@@ -12,7 +12,7 @@ using Template.Command.Database;
 namespace Template.Command.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20231024194343_Initial")]
+    [Migration("20231024232630_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

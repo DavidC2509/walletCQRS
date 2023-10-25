@@ -33,7 +33,7 @@ namespace Template.Services.HandlerEvents
             var spec = new AccountByIdSpec(notification.MovementTransfer.AccountOriginId);
             var account = await _accountRepository.FirstOrDefaultAsync(spec, cancellationToken);
 
-            var movement = await _movementRepository.GetByIdAsync(notification.MovementTransfer.MovementDestitnyId);
+            var movement = await _movementRepository.GetByIdAsync(notification.MovementTransfer.MovementOriginId);
             movement.UpdateMovement(
             notification.MovementTransfer.Amount, "Cambio Transferencia en Movimiento Origen",
             notification.MovementTransfer.Date, account.Salary);

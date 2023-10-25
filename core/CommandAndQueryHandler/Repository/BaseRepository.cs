@@ -64,9 +64,8 @@ namespace Core.CommandAndQueryHandler.Repository
         /// </summary>
         /// <param name="item">Item a añadir</param>
         /// <returns>Retorna la entidad añadida</returns>
-        TEntity IRepository<TEntity>.Add(TEntity entity)
+        public TEntity Add(TEntity entity)
         {
-        
                 return DataSet
                     .Add(entity)
                     .Entity;
