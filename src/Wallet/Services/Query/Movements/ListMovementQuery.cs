@@ -7,13 +7,13 @@ namespace Template.Services.Query.Movements
     public class ListMovementQuery : IRequest<IEnumerable<MovementModel>>
     {
         [FromQuery(Name = "startDate")]
-        public DateTime? StartDate { get; set; }= null;
+        public DateTime? StartDate { get; set; } = null;
 
         [FromQuery(Name = "endDate")]
-        public DateTime? EndDate { get; set; }= null;
+        public DateTime? EndDate { get; set; } = null;
 
         [FromQuery(Name = "typeMovement")]
-        public TypeMovement? TypeMpvement { get; set; }= null;
+        public TypeMovement? TypeMpvement { get; set; } = null;
 
         [FromQuery(Name = "accountId")]
         public Guid? AccountId { get; set; } = null;

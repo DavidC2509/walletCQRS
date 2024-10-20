@@ -2,8 +2,6 @@ using AuthPermissions.BaseCode.CommonCode;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Query;
-using System;
-using System.Linq;
 using System.Linq.Expressions;
 using static System.Linq.Expressions.Expression;
 
@@ -24,7 +22,7 @@ namespace Template.Command.Interceptor
 
                 var parameter = Parameter(entityType.ClrType);
                 var multiTenantExpression = PrepareExpression(tenantFilter, entityType, parameter);
-                
+
                 entityType.SetQueryFilter(Lambda(multiTenantExpression, parameter));
             }
         }

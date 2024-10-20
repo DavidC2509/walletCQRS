@@ -1,11 +1,11 @@
-﻿using Core.Domain.Domain;
-using Core.Domain;
+﻿using AuthPermissions.BaseCode.CommonCode;
+using Core.Cqrs.Domain;
+using Core.Cqrs.Domain.Domain;
 using MediatR;
-using AuthPermissions.BaseCode.CommonCode;
-using Template.Domain.ClassifiersAggregate;
-using Template.Domain.MovementTransferAggregate;
-using Template.Domain.MovementAggregate.Events;
 using System.ComponentModel.DataAnnotations.Schema;
+using Template.Domain.ClassifiersAggregate;
+using Template.Domain.MovementAggregate.Events;
+using Template.Domain.MovementTransferAggregate;
 
 namespace Template.Domain.MovementAggregate
 {
@@ -17,7 +17,7 @@ namespace Template.Domain.MovementAggregate
         public Guid AccountId { get; set; }
         public CategoryMovement CategoryMovement { get; set; }
         public TypeMovement TypeMovement { get; set; }
-        
+
         [Column(TypeName = "Date")]
         public DateTime Date { get; set; }
 

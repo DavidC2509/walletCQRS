@@ -1,5 +1,5 @@
 
-using Core.Controller;
+using ControllerCqrs;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -56,7 +56,7 @@ namespace Template.Api.Controllers
         ///</summary>
         [HttpDelete("{idMovementTransfer}")]
         [Authorize]
-        public Task<ActionResult<bool>> DeleteTransferMovement(Guid idMovementTransfer)=> SendRequest(new DeleteMovementTransferCommand(idMovementTransfer));
+        public Task<ActionResult<bool>> DeleteTransferMovement(Guid idMovementTransfer) => SendRequest(new DeleteMovementTransferCommand(idMovementTransfer));
 
 
     }

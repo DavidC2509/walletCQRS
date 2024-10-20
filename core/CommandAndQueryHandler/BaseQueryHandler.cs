@@ -1,6 +1,6 @@
 ﻿using Ardalis.Specification;
-using Core.Domain;
-using Core.Domain.Repository;
+using Core.Cqrs.Domain;
+using Core.Cqrs.Domain.Repository;
 using MediatR;
 
 namespace Core.CommandAndQueryHandler

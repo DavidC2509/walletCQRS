@@ -1,10 +1,8 @@
 using AutoMapper;
-using Core.CommandAndQueryHandler;
-using Core.Domain.Repository;
-using Template.Domain.AccountAggregate;
-using Template.Domain.ClassifiersAggregate;
+using Core.Cqrs.CommandAndQueryHandler;
+using Core.Cqrs.Domain.Repository;
 using Template.Domain.MovementTransferAggregate;
-using Template.Domain.Specification;
+using Template.Domain.MovementTransferAggregate.Specification;
 using Template.Services.Models;
 
 namespace Template.Services.Query.MovementTransfers
@@ -22,7 +20,7 @@ namespace Template.Services.Query.MovementTransfers
         {
             var specMovementTransfer = new MovementTransferListSpec(request.StartDate, request.EndDate, request.AccountId);
 
-            var list = await _repository.ListAsync(specMovementTransfer,cancellationToken);
+            var list = await _repository.ListAsync(specMovementTransfer, cancellationToken);
             Console.WriteLine("Obtuvo listado : " + list.Count);
 
             var resultMapper = _mapper.Map<List<MovementTransferModel>>(list);

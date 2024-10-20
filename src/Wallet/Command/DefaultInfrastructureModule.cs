@@ -1,6 +1,5 @@
 ﻿using Autofac;
-using Autofac.Core;
-using Core.Domain.Repository;
+using Core.Cqrs.Domain.Repository;
 using MediatR;
 using MediatR.Pipeline;
 using System.Reflection;

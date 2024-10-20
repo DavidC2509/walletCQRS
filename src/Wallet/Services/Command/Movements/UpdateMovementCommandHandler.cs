@@ -1,9 +1,7 @@
-using Core.CommandAndQueryHandler;
-using Core.Domain.Repository;
+using Core.Cqrs.CommandAndQueryHandler;
+using Core.Cqrs.Domain.Repository;
 using Template.Domain.AccountAggregate;
-using Template.Domain.ClassifiersAggregate;
 using Template.Domain.MovementAggregate;
-using Template.Domain.Specification;
 
 namespace Template.Services.Command.Movements
 {

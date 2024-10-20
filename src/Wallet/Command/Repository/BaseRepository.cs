@@ -1,20 +1,14 @@
 ﻿using Ardalis.Specification;
-using Core.Cqrs.Domain;
-using Core.Cqrs.Domain.Domain;
-using Core.Cqrs.Domain.Repository;
-using Microsoft.EntityFrameworkCore;
 using Ardalis.Specification.EntityFrameworkCore;
-using Core.CommandAndQueryHandler.Database;
+using Core.Cqrs.Domain;
+using Core.Cqrs.Domain.Repository;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Template.Command.Database;
 
-namespace Core.CommandAndQueryHandler.Repository
+namespace Template.Command.Repository
 {
-    /// <summary>
-    /// Clase base para los repositorios de comandos
-    /// </summary>
-    /// <typeparam name="TEntity">Entidad Root del agregado</typeparam>
-    /// <typeparam name="TContext">Contexto de la base de datos</typeparam>
-    public abstract class BaseRepository<TEntity, TContext,TUser> : IRepository<TEntity>
+    public abstract class BaseRepository<TEntity, TContext, TUser> : IRepository<TEntity>
         where TEntity : class, IAggregateRoot
         where TUser : IdentityUser
         where TContext : DatabaseIdentity<TUser>
@@ -66,9 +60,9 @@ namespace Core.CommandAndQueryHandler.Repository
         /// <returns>Retorna la entidad añadida</returns>
         public TEntity Add(TEntity entity)
         {
-                return DataSet
-                    .Add(entity)
-                    .Entity;
+            return DataSet
+                .Add(entity)
+                .Entity;
         }
 
         public virtual Task<IEnumerable<TEntity>> AddRangeAsync(IEnumerable<TEntity> entities, CancellationToken cancellationToken = default)

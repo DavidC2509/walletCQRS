@@ -1,8 +1,8 @@
 ﻿
 
 using AuthPermissions.BaseCode.CommonCode;
-using Core.Domain;
-using Core.Domain.Domain;
+using Core.Cqrs.Domain;
+using Core.Cqrs.Domain.Domain;
 using MediatR;
 using Template.Domain.ClassifiersAggregate.Events;
 
@@ -33,7 +33,7 @@ namespace Template.Domain.ClassifiersAggregate
             DataKey = string.Empty;
         }
 
-        public CategoryAccount(string name,string datakey)
+        public CategoryAccount(string name, string datakey)
         {
             Name = name;
             DataKey = datakey;

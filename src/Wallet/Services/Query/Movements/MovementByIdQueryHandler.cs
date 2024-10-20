@@ -1,9 +1,8 @@
 using AutoMapper;
-using Core.CommandAndQueryHandler;
-using Core.Domain.Repository;
-using Template.Domain.AccountAggregate;
+using Core.Cqrs.CommandAndQueryHandler;
+using Core.Cqrs.Domain.Repository;
 using Template.Domain.MovementAggregate;
-using Template.Domain.Specification;
+using Template.Domain.MovementAggregate.Specification;
 using Template.Services.Models;
 
 namespace Template.Services.Query.Movements

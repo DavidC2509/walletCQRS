@@ -1,14 +1,8 @@
-﻿using Core.Domain.Domain;
-using Core.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Template.Domain.ClassifiersAggregate;
+﻿using AuthPermissions.BaseCode.CommonCode;
+using Core.Cqrs.Domain;
+using Core.Cqrs.Domain.Domain;
 using MediatR;
-using AuthPermissions.BaseCode.CommonCode;
-using Template.Domain.MovementTransferAggregate;
+using Template.Domain.ClassifiersAggregate;
 
 namespace Template.Domain.AccountAggregate
 {
@@ -44,7 +38,7 @@ namespace Template.Domain.AccountAggregate
         => new(name, categoryAccount, salary);
 
 
-        public void UpdateAccount(string name,double salary, CategoryAccount categoryAccount)
+        public void UpdateAccount(string name, double salary, CategoryAccount categoryAccount)
         {
             Name = name;
             Salary = salary;

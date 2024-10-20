@@ -1,5 +1,5 @@
-﻿using Core.Domain;
-using Core.Domain.Domain;
+﻿using Core.Cqrs.Domain;
+using Core.Cqrs.Domain.Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;

@@ -1,18 +1,6 @@
-using AutoMapper;
-using Core.CommandAndQueryHandler;
-using Core.Domain.Repository;
-using MediatR;
-using Microsoft.AspNetCore.Identity;
-using StackExchange.Redis;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Template.Domain.AccountAggregate;
-using Template.Domain.ClassifiersAggregate;
+using Core.Cqrs.CommandAndQueryHandler;
+using Core.Cqrs.Domain.Repository;
 using Template.Domain.MovementTransferAggregate;
-using Template.Domain.UserAggregate;
 
 namespace Template.Services.Command.MovementTransfers
 {

@@ -1,4 +1,4 @@
-using Core.Controller;
+using ControllerCqrs;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

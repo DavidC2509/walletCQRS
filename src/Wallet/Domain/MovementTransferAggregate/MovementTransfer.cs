@@ -1,9 +1,9 @@
-﻿using Core.Domain.Domain;
-using Core.Domain;
-using AuthPermissions.BaseCode.CommonCode;
+﻿using AuthPermissions.BaseCode.CommonCode;
+using Core.Cqrs.Domain;
+using Core.Cqrs.Domain.Domain;
 using MediatR;
-using Template.Domain.MovementTransferAggregate.Events;
 using System.ComponentModel.DataAnnotations.Schema;
+using Template.Domain.MovementTransferAggregate.Events;
 
 
 namespace Template.Domain.MovementTransferAggregate

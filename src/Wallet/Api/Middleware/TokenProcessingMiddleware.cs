@@ -1,7 +1,4 @@
-using Microsoft.AspNetCore.Http;
 using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Threading.Tasks;
 using Template.Domain.Interface;
 
 namespace Template.Api.Middleware

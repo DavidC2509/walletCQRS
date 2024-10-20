@@ -1,9 +1,9 @@
-using Core.Domain.Repository;
+using Core.Cqrs.Domain.Repository;
 using MediatR;
 using Template.Domain.AccountAggregate;
+using Template.Domain.AccountAggregate.Specification;
 using Template.Domain.MovementAggregate;
 using Template.Domain.MovementAggregate.Events;
-using Template.Domain.Specification;
 
 
 namespace Template.Services.HandlerEvents

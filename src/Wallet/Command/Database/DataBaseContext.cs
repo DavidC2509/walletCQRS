@@ -1,12 +1,7 @@
-﻿using Ardalis.EFCore.Extensions;
-using AuthPermissions.BaseCode.CommonCode;
-using AuthPermissions.BaseCode.DataLayer.EfCode;
-using Core.CommandAndQueryHandler.Database;
-using Core.Domain;
+﻿using AuthPermissions.BaseCode.CommonCode;
+using Core.Cqrs.Domain;
 using MediatR;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.IdentityModel.Tokens;
 using System.Linq.Expressions;
 using System.Reflection;

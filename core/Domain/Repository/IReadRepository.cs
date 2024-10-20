@@ -1,7 +1,7 @@
 ﻿
 
 using Ardalis.Specification;
-using Core.Domain;
+using Core.Cqrs.Domain;
 
 namespace Core.Domain.Repository
 {

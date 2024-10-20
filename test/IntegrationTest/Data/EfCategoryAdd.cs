@@ -4,7 +4,7 @@ using Template.Domain.AccountAggregate;
 using Template.Domain.ClassifiersAggregate;
 using Xunit;
 
-namespace IntegrationTests.Data; 
+namespace IntegrationTests.Data;
 public class EfCategoryAdd : BaseEfRepoTestFixture
 {
     [Fact]
@@ -15,7 +15,7 @@ public class EfCategoryAdd : BaseEfRepoTestFixture
 
         var repositoryAccount = GetAccount();
 
-        var account = Account.CreateAccount("Test Account", categoryAccount,100);
+        var account = Account.CreateAccount("Test Account", categoryAccount, 100);
 
         repositoryCategory.Add(categoryAccount);
 

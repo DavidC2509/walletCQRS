@@ -1,5 +1,5 @@
 using Ardalis.Specification;
-using Core.Domain.Repository;
+using Core.Cqrs.Domain.Repository;
 using MediatR;
 
 namespace Core.CommandAndQueryHandler

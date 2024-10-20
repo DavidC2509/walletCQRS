@@ -1,15 +1,10 @@
-using Core.Controller;
+using ControllerCqrs;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Template.Services.Command.Accounts;
 using Template.Services.Command.CategoryAccounts;
-using Template.Services.Command.Users;
 using Template.Services.Models;
-using Template.Services.Query.Accounts;
 using Template.Services.Query.CategoryAccounts;
-using Template.Services.Query.Users;
 
 namespace Template.Api.Controllers
 {

@@ -1,18 +1,10 @@
-﻿using Core.Cqrs.Domain.Domain;
-using Core.Cqrs.Domain;
+﻿using Core.Cqrs.Domain;
 using MediatR;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Core.Cqrs.CommandAndQueryHandler;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
-namespace Core.CommandAndQueryHandler.Database
+namespace Template.Command.Database
 {
     public abstract class DatabaseIdentity<TUser> : IdentityDbContext<TUser>, IUnitOfWork where TUser : IdentityUser
     {

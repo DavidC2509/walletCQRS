@@ -1,5 +1,5 @@
-using Core.CommandAndQueryHandler;
-using Core.Domain.Repository;
+using Core.Cqrs.CommandAndQueryHandler;
+using Core.Cqrs.Domain.Repository;
 using Template.Domain.ClassifiersAggregate;
 
 namespace Template.Services.Command.CategoryAccounts

@@ -1,4 +1,4 @@
-﻿using Core.Domain.Domain;
+﻿using Core.Cqrs.Domain.Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;

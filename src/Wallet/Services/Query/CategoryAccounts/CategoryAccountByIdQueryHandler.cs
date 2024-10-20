@@ -1,9 +1,7 @@
 using AutoMapper;
-using Core.CommandAndQueryHandler;
-using Core.Domain.Repository;
-using Template.Domain.AccountAggregate;
+using Core.Cqrs.CommandAndQueryHandler;
+using Core.Cqrs.Domain.Repository;
 using Template.Domain.ClassifiersAggregate;
-using Template.Domain.Specification;
 using Template.Services.Models;
 
 namespace Template.Services.Query.CategoryAccounts

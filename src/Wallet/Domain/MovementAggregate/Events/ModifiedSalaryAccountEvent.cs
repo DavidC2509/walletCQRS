@@ -8,7 +8,7 @@ namespace Template.Domain.MovementAggregate.Events
         public TypeMovement TypeMovement { get; set; }
         public double Amount { get; set; }
 
-        public ModifiedSalaryAccountEvent(Guid accountId, TypeMovement typeMovement,double amount)
+        public ModifiedSalaryAccountEvent(Guid accountId, TypeMovement typeMovement, double amount)
         {
             AccountId = accountId;
             TypeMovement = typeMovement;

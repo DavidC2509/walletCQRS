@@ -1,13 +1,12 @@
 
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using Template.Api.Extensions;
-using Template.Command;
-using Template.Api.Endpoints;
-using Template.Command.Database;
 using Microsoft.EntityFrameworkCore;
-using Template.Services;
+using Template.Api.Extensions;
 using Template.Api.Middleware;
+using Template.Command;
+using Template.Command.Database;
+using Template.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

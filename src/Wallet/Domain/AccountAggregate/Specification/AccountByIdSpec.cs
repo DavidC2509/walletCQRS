@@ -1,9 +1,8 @@
 
 
 using Ardalis.Specification;
-using Template.Domain.AccountAggregate;
 
-namespace Template.Domain.Specification
+namespace Template.Domain.AccountAggregate.Specification
 
 {
     public class AccountByIdSpec : Specification<Account>

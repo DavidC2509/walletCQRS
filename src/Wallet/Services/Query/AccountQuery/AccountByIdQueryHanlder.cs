@@ -1,11 +1,11 @@
 using AutoMapper;
-using Core.CommandAndQueryHandler;
-using Core.Domain.Repository;
+using Core.Cqrs.CommandAndQueryHandler;
+using Core.Cqrs.Domain.Repository;
 using Template.Domain.AccountAggregate;
-using Template.Domain.Specification;
+using Template.Domain.AccountAggregate.Specification;
 using Template.Services.Models;
 
-namespace Template.Services.Query.Accounts
+namespace Template.Services.Query.AccountQuery
 {
     public class AccountByIdQueryHandler : BaseQueryHandler<Account, AccountByIdQuery, AccountModel>
     {

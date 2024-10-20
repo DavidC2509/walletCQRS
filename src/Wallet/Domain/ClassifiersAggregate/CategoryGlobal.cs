@@ -1,5 +1,4 @@
-﻿using Core.Domain.Domain;
-using Core.Domain;
+﻿using Core.Cqrs.Domain.Domain;
 
 namespace Template.Domain.ClassifiersAggregate
 {

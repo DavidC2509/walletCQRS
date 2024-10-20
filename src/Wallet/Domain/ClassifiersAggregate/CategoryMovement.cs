@@ -1,7 +1,6 @@
-﻿using Core.Domain.Domain;
-using Core.Domain;
-using MediatR;
-using AuthPermissions.BaseCode.CommonCode;
+﻿using AuthPermissions.BaseCode.CommonCode;
+using Core.Cqrs.Domain;
+using Core.Cqrs.Domain.Domain;
 
 namespace Template.Domain.ClassifiersAggregate
 {

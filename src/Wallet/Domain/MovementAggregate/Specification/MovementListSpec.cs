@@ -1,10 +1,8 @@
 
 
 using Ardalis.Specification;
-using Template.Domain.AccountAggregate;
-using Template.Domain.MovementAggregate;
 
-namespace Template.Domain.Specification
+namespace Template.Domain.MovementAggregate.Specification
 
 {
     public class MovementListSpec : Specification<Movement>

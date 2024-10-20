@@ -1,5 +1,3 @@
-
-using System;
 using MediatR;
 
 namespace Template.Services.Command.MovementTransfers

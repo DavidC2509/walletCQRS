@@ -7,7 +7,8 @@ namespace Template.Services.Query.CategoryMovements
     {
         public Guid Id { get; set; }
 
-        public CategoryMovementByIdQuery(Guid id){
+        public CategoryMovementByIdQuery(Guid id)
+        {
             Id = id;
         }
     }

@@ -1,15 +1,14 @@
 ﻿
 
-using Core.Domain;
-using Core.Domain.Domain;
+using Core.Cqrs.Domain;
+using Core.Cqrs.Domain.Domain;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using System.ComponentModel.DataAnnotations.Schema;
 using Template.Domain.UserAggregate.Events;
 
 namespace Template.Domain.UserAggregate
 {
-    public class User : IdentityUser,IAggregateRoot, IBaseEntity, IDataTenantId
+    public class User : IdentityUser, IAggregateRoot, IBaseEntity, IDataTenantId
     {
         public string FirstName { get; set; }
         public string? LastName { get; set; }
@@ -57,12 +56,12 @@ namespace Template.Domain.UserAggregate
 
         public void ClearDomainEvents()
         {
-            _domainEvents.Clear();        
+            _domainEvents.Clear();
         }
 
         public void ClearDomainEventsAwait()
         {
-            _domainEventsAwait.Clear();        
+            _domainEventsAwait.Clear();
         }
     }
 }
